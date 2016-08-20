@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
-import Headroom from 'react-headroom'
+
+import { prefixLink } from '../utils/urls.js'
 import '../css/markdown-styles'
 
 import LogoImg from '../static/zbt-logo.png';
@@ -19,7 +19,7 @@ module.exports = React.createClass({
           <div className="logo">
             <span className="logo-pic">
               <Link to={prefixLink("/")}>
-                <span className="logo-span" style={{backgroundImage: `url("${prefixLink('/' + LogoImg)}")`}}></span>
+                <span className="logo-span" style={{backgroundImage: `url("${prefixLink(LogoImg)}")`}}></span>
               </Link>
             </span>
           </div>
@@ -27,12 +27,12 @@ module.exports = React.createClass({
             <div className="contents flex">
               <span className="left flex-cell flex">
                 <Link className="flex-cell" to={prefixLink("/")}>HOME</Link>
-                <Link className="flex-cell" to={prefixLink("/history/")}>HISTORY</Link>
                 <Link className="flex-cell" to={prefixLink("/rush/")}>RUSH</Link>
+                <Link className="flex-cell" to={prefixLink("/brothers/")}>BROTHERS</Link>
               </span>
               <span className="right flex-cell flex">
-                <Link className="flex-cell" to={prefixLink("/brothers/")}>BROTHERS</Link>
                 <Link className="flex-cell" to={prefixLink("/house/")}>HOUSE</Link>
+                <Link className="flex-cell" to={prefixLink("/history/")}>HISTORY</Link>
                 <Link className="flex-cell" to={prefixLink("/alumni/")}>ALUMNI</Link>
               </span>
             </div>

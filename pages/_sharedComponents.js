@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
 import DocumentTitle from 'react-document-title'
 import { config } from 'config'
+import { prefixLink } from '../utils/urls.js'
 
 export function Row({ flipped, children, id, imageUrl }) {
   const imgStyle = {
-    backgroundImage: `url("${prefixLink('/' + imageUrl)}")`
+    backgroundImage: `url("${prefixLink(imageUrl)}")`
   };
   const imgDiv = (<div key={1} className="img col" style={imgStyle}></div>);
   const descDiv = (<div key={2} className="desc col typography"> <div className="desc-wrapper">{children}</div></div>);
@@ -21,7 +21,7 @@ export function Row({ flipped, children, id, imageUrl }) {
 
 export function Splash({ id, children, additionalStyles, imageUrl }) {
   const style = {
-    backgroundImage: [...(additionalStyles || []), `url("${prefixLink('/' + imageUrl)}")`].join(', ')
+    backgroundImage: [...(additionalStyles || []), `url("${prefixLink(imageUrl)}")`].join(', ')
   };
   return (
       <div className="background" id={id} style={style}>
