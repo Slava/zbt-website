@@ -36,9 +36,12 @@ export default class History extends React.Component {
     const { children } = this.props;
     return (
         <DocumentTitle title={"History | " + config.siteTitle}>
-          <div className="contents typography">
-            <h1>History of Xi Chapter</h1>
-            {aLotOfText.split("\n").map((text) => <p>{text}</p>)}
+          <div>
+            <Splash id="history"></Splash>
+            <div className="contents typography">
+              <h1>History of Xi Chapter</h1>
+              {aLotOfText.split("\n").map((text) => <p>{text}</p>)}
+            </div>
           </div>
         </DocumentTitle>
     );
