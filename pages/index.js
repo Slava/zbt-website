@@ -25,7 +25,7 @@ export default class Index extends React.Component {
           <Splash id="homepage" additionalStyles={['linear-gradient(rgba(0, 86, 180, 0.45), rgba(0, 86, 180, 0.45))']} imageUrl={CoverImg}>
             Zeta Beta Tau <br/>
             Xi Chapter <br/>
-            <Link className="call-to-action" to={prefixLink("./rush/")}>
+            <Link className="call-to-action" to={prefixLink("/rush/")}>
               <span>
                 RUSH SCHEDULE
               </span>
