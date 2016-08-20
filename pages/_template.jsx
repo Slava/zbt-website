@@ -4,6 +4,7 @@ import { prefixLink } from 'gatsby-helpers'
 import Headroom from 'react-headroom'
 import '../css/markdown-styles'
 
+import LogoImg from '../static/zbt-logo.png';
 
 module.exports = React.createClass({
   propTypes () {
@@ -17,7 +18,9 @@ module.exports = React.createClass({
         <header>
           <div className="logo">
             <span className="logo-pic">
-              <Link to={prefixLink("/")}><span className="logo-span"></span></Link>
+              <Link to={prefixLink("/")}>
+                <span className="logo-span" style={{backgroundImg: `url("${LogoImg}")`}}></span>
+              </Link>
             </span>
           </div>
           <div className="nav">
