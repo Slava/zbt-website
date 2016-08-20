@@ -1,11 +1,9 @@
 import React from 'react'
-import { Container } from 'react-responsive-grid'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Headroom from 'react-headroom'
 import '../css/markdown-styles'
 
-import { rhythm } from '../utils/typography'
 
 module.exports = React.createClass({
   propTypes () {
@@ -16,41 +14,36 @@ module.exports = React.createClass({
   render () {
     return (
       <div>
-        <Headroom
-          wrapperStyle={{
-            marginBottom: rhythm(1),
-          }}
-          style={{
-            background: 'lightgray',
-          }}
-        >
-          <Container
-            style={{
-              maxWidth: 960,
-              paddingTop: 0,
-              padding: `${rhythm(1)} ${rhythm(3/4)}`,
-            }}
-          >
-            <Link
-              to={prefixLink('/')}
-              style={{
-                color: 'black',
-                textDecoration: 'none',
-              }}
-            >
-              Gatsby!!!
-            </Link>
-          </Container>
-        </Headroom>
-        <Container
-          style={{
-            maxWidth: 960,
-            padding: `${rhythm(1)} ${rhythm(3/4)}`,
-            paddingTop: 0,
-          }}
-        >
-          {this.props.children}
-        </Container>
+        <header>
+          <div className="logo">
+            <span className="logo-pic">
+              <span className="logo-span"></span>
+            </span>
+          </div>
+          <div className="nav">
+            <div className="contents flex">
+              <span className="left flex-cell flex">
+                <Link className="flex-cell" to={prefixLink("/")}>HOME</Link>
+                <Link className="flex-cell" to={prefixLink("/history")}>HISTORY</Link>
+                <Link className="flex-cell" to={prefixLink("/rush")}>RUSH</Link>
+              </span>
+              <span className="right flex-cell flex">
+                <Link className="flex-cell" to={prefixLink("/brothers")}>BROTHERS</Link>
+                <Link className="flex-cell" to={prefixLink("/house")}>HOUSE</Link>
+                <Link className="flex-cell" to={prefixLink("/alumni")}>ALUMNI</Link>
+              </span>
+            </div>
+          </div>
+        </header>
+        <div className="page-container">
+        {this.props.children}
+        <footer>
+          <span>
+            <div> MIT Zeta Beta Tau Xi Chapter 2016 </div>
+            <div> <a href="mailto:slv@mit.edu">Contact the tech-chair</a> </div>
+          </span>
+        </footer>
+        </div>
       </div>
     )
   },
