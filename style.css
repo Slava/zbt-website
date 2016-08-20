@@ -45,7 +45,10 @@ table {
 
 
 /* real css */
-a { text-decoration: none; }
+a {
+    text-decoration: none;
+    color: rgba(0, 86, 180, 1);
+}
 html {
     height: 100%;
 }
@@ -178,7 +181,99 @@ header {
     margin-right: auto;
 }
 
-p {
+
+.page-container .contents .big-letters {
+    margin-top: 2em;
+    padding: 0.5em;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.page-container p {
+    margin-top: 1em;
+}
+
+.row {
+    margin-top: 3em;
+    height: 100%;
+    display: flex;
+    min-height: 300px;
+}
+.row div.col {
+    flex: 1;
+}
+
+.row .img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.row .desc .desc-wrapper {
+    padding: 2em;
+    max-width: 400px;
+}
+
+.row.alt .desc .desc-wrapper {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.row .desc p {
+    font-family: 'PT Sans',sans-serif;
+    font-size: 1.2em;
+    color: #333;
+}
+.row .desc h2 {
+    font-family: 'PT Sans',sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+#excellence .img {
+    background-image: url("./excellence.jpg");
+}
+#rush .img {
+    background-image: url("./rush.jpg");
+}
+#party .img {
+    background-image: url("./party.jpg");
+}
+
+hr {
+    max-width: 200px;
+    height: 1px;
+    border: 0;
+    background-image: -webkit-linear-gradient(left, rgba(0, 86, 180, 1), rgba(0, 100, 200, 1), rgba(0, 86, 180, 1));
+    background-image:    -moz-linear-gradient(left, rgba(0, 86, 180, 1), rgba(0, 100, 200, 1), rgba(0, 86, 180, 1));
+    background-image:     -ms-linear-gradient(left, rgba(0, 86, 180, 1), rgba(0, 100, 200, 1), rgba(0, 86, 180, 1));
+    background-image:      -o-linear-gradient(left, rgba(0, 86, 180, 1), rgba(0, 100, 200, 1), rgba(0, 86, 180, 1));
+    background-image:         linear-gradient(left, rgba(0, 86, 180, 1), rgba(0, 100, 200, 1), rgba(0, 86, 180, 1));
+
+    margin-top: 3em;
+    margin-bottom: 8em;
+}
+
+footer {
+    margin-top: 5em;
+    width: 100%;
+    background-color: #282828;
+    text-align: right;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+footer div {
+    padding-right: 1em;
+}
+footer span {
+    color: #777;
+    font-family: 'PT Sans',sans-serif;
+    padding: 0.5em;
+}
+footer a {
+    color: #999;
 }
 
 .flex {
