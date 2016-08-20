@@ -17,20 +17,20 @@ module.exports = React.createClass({
         <header>
           <div className="logo">
             <span className="logo-pic">
-              <span className="logo-span"></span>
+              <Link to={prefixLink("/")}><span className="logo-span"></span></Link>
             </span>
           </div>
           <div className="nav">
             <div className="contents flex">
               <span className="left flex-cell flex">
                 <Link className="flex-cell" to={prefixLink("/")}>HOME</Link>
-                <Link className="flex-cell" to={prefixLink("/history")}>HISTORY</Link>
-                <Link className="flex-cell" to={prefixLink("/rush")}>RUSH</Link>
+                <Link className="flex-cell" to={prefixLink("/history/")}>HISTORY</Link>
+                <Link className="flex-cell" to={prefixLink("/rush/")}>RUSH</Link>
               </span>
               <span className="right flex-cell flex">
-                <Link className="flex-cell" to={prefixLink("/brothers")}>BROTHERS</Link>
-                <Link className="flex-cell" to={prefixLink("/house")}>HOUSE</Link>
-                <Link className="flex-cell" to={prefixLink("/alumni")}>ALUMNI</Link>
+                <Link className="flex-cell" to={prefixLink("/brothers/")}>BROTHERS</Link>
+                <Link className="flex-cell" to={prefixLink("/house/")}>HOUSE</Link>
+                <Link className="flex-cell" to={prefixLink("/alumni/")}>ALUMNI</Link>
               </span>
             </div>
           </div>

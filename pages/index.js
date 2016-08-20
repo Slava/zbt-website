@@ -3,29 +3,31 @@ import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import DocumentTitle from 'react-document-title'
 import { config } from 'config'
+import {
+  Row,
+  Splash,
+} from './_sharedComponents'
 
-import '../css/styles.css';
+import '../css/reset.css';
+import '../css/fonts.css';
+import '../css/styles.less';
 
 export default class Index extends React.Component {
   render () {
     return (
       <DocumentTitle title={config.siteTitle}>
         <div>
-            <div className="background">
-              <div className="caption">
-                Zeta Beta Tau
-                <br/>
-                Xi Chapter
-                <br/>
-                <Link className="call-to-action" to={prefixLink("./rush")}>
-                  <span>
-                    RUSH SCHEDULE
-                  </span>
-                </Link>
-              </div>
-            </div>
+          <Splash id="homepage">
+            Zeta Beta Tau <br/>
+            Xi Chapter <br/>
+            <Link className="call-to-action" to={prefixLink("./rush/")}>
+              <span>
+                RUSH SCHEDULE
+              </span>
+            </Link>
+          </Splash>
             <div className="contents">
-              <div className="big-letters">
+              <div className="big-letters typography">
                 <p>ZBT has existed at MIT for over 100 years, and spent the last 50 of those nestled away at our home in Brookline. We are a brotherhood of over 50 members from across the United States and various foreign countries, representing a diverse array of majors at MIT and a broad range of on campus activities.</p>
               </div>
             </div>
@@ -34,13 +36,13 @@ export default class Index extends React.Component {
               <h2>The Powerhouse of Excellence</h2>
               <p>Fraternity is much more than a place to live or a social outlet for our brothers during their four years at MIT.</p>
               <p>We remain dedicated to our reasons for being here, earning consistently high GPAs, doing over 1000 hours of community service, and raising over $1500 for Children's Miracle Network.</p>
-              <p><Link to={prefixLink("/history")}>Read more on the history of Xi Chapter.</Link></p>
+              <p><Link to={prefixLink("/history/")}>Read more on the history of Xi Chapter.</Link></p>
             </Row>
             <Row flipped id="rush">
               <h2>Rush ZBT!</h2>
               <p>Rush is a week-long period at the start of the school year at MIT, when freshmen get to meet us and see all of the other fraternities and living options available to them.</p>
               <p>We have all sorts of activities and mountains of FREE FOOD available for Rush, giving the freshmen the chance to really get to know us and have a fun time doing so.</p>
-              <p><Link to={prefixLink("/rush")}>Checkout the rush page for details.</Link></p>
+              <p><Link to={prefixLink("/rush/")}>Checkout the rush page for details.</Link></p>
             </Row>
             <Row id="party">
               <h2>Come get to know us!</h2>
@@ -52,16 +54,4 @@ export default class Index extends React.Component {
       </DocumentTitle>
     );
   }
-}
-
-function Row({ flipped, children, id }) {
-  const imgDiv = (<div key={1} className="img col"></div>);
-  const descDiv = (<div key={2} className="desc col"> <div className="desc-wrapper">{children}</div></div>);
-  const divs = flipped ? [descDiv, imgDiv] : [imgDiv, descDiv];
-
-  return (
-    <div key={id} className={"row" + (flipped ? " alt" : "")} id={id}>
-      {divs}
-    </div>
-  );
 }
