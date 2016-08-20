@@ -19,7 +19,7 @@ module.exports = React.createClass({
           <div className="logo">
             <span className="logo-pic">
               <Link to={prefixLink("/")}>
-                <span className="logo-span" style={{backgroundImg: `url("${LogoImg}")`}}></span>
+                <span className="logo-span" style={{backgroundImage: `url("${prefixLink(LogoImg)}")`}}></span>
               </Link>
             </span>
           </div>
