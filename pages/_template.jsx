@@ -1,7 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { Link, browserHistory } from 'react-router'
 
 import { prefixLink } from '../utils/urls.js'
+import { Dropdown } from './_sharedComponents';
 import '../css/markdown-styles'
 
 import LogoImg from '../static/zbt-logo.png';
@@ -23,20 +24,7 @@ module.exports = React.createClass({
               </Link>
             </span>
           </div>
-          <div className="nav">
-            <div className="contents flex">
-              <span className="left flex-cell flex">
-                <Link className="flex-cell" to={prefixLink("/rush/")}>RUSH</Link>
-                <Link className="flex-cell" to={prefixLink("/events/")}>EVENTS</Link>
-                <Link className="flex-cell" to={prefixLink("/brothers/")}>BROTHERS</Link>
-              </span>
-              <span className="right flex-cell flex">
-                <Link className="flex-cell" to={prefixLink("/house/")}>HOUSE</Link>
-                <Link className="flex-cell" to={prefixLink("/history/")}>HISTORY</Link>
-                <Link className="flex-cell" to={prefixLink("/alumni/")}>ALUMNI</Link>
-              </span>
-            </div>
-          </div>
+          <Nav/>
         </header>
         <div className="page-container">
         {this.props.children}
@@ -53,3 +41,44 @@ module.exports = React.createClass({
     )
   },
 })
+
+function Nav() {
+  const links = [
+    'rush',
+    'events',
+    'brothers',
+    'house',
+    'history',
+    'alumni',
+  ];
+
+  const linkify = (x) => <Link key={x} className="flex-cell" to={prefixLink(`/${x}/`)}>{x.toUpperCase()}</Link>;
+  const leftLinks = links.slice(0, 3).map(linkify);
+  const rightLinks = links.slice(3, 6).map(linkify);
+
+  const navigate = (route) => {
+    if (route === 'HOME') {
+      browserHistory.push('/');
+    } else {
+      browserHistory.push(prefixLink(route.toLowerCase() + "/"));
+    }
+  };
+
+  const dropdownList = ['home', ...links].map(x => x.toUpperCase());
+
+  return (
+    <div className="nav">
+      <div className="big-nav contents flex">
+        <span className="left flex-cell flex">
+          {leftLinks}
+        </span>
+        <span className="right flex-cell flex">
+          {rightLinks}
+        </span>
+      </div>
+      <div className="small-nav contents">
+        <Dropdown list={dropdownList} selected={"---"} onSelected={navigate}/>
+      </div>
+    </div>
+  );
+}

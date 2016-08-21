@@ -62,22 +62,20 @@ body h2 {
         width: 100px;
         height: 100px;
         position: absolute;
-        top: -55px;
+        top: -15px;
 
         background-image: url("../static/zbt-logo.png");
         background-size: contain;
-    }
-
-    .logo-pic {
-        display: inline-block;
-        width: 100px;
-        position: relative;
     }
 
 
     max-width: 100px;
     margin-left: auto;
     margin-right: auto;
+
+    @media(max-width: 800px) {
+        margin-left: 2em;
+    }
 
     height: 5em;
     line-height: 5em;
@@ -110,6 +108,20 @@ body h2 {
         &:hover {
             color: #333;
         }
+    }
+
+    .small-nav {
+        display: none;
+    }
+
+    @media(max-width: 800px) {
+        .small-nav {
+            display: block;
+            position: absolute;
+            left: 150px;
+            top: 0px;
+        }
+        .big-nav { display: none; }
     }
 }
 
@@ -178,6 +190,11 @@ body h2 {
 
     margin-left: auto;
     margin-right: auto;
+
+    @media (max-width: 800px) {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
 }
 
 .typography {
@@ -190,7 +207,6 @@ body h2 {
 .row {
     margin-top: 4em;
     height: 100%;
-    display: flex;
     min-height: 300px;
 
     .col {
@@ -201,12 +217,18 @@ body h2 {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+
+        min-height: 200px;
     }
 
     .desc {
         .desc-wrapper {
             padding: 2em;
             max-width: 400px;
+
+            @media (max-width: 800px) {
+                max-width: 800px;
+            }
         }
 
         h2 {
@@ -215,9 +237,12 @@ body h2 {
         }
     }
 
-    &.alt .desc .desc-wrapper {
-        margin-right: 0;
-        margin-left: auto;
+    &.alt {
+        flex-direction: row-reverse;
+        .desc .desc-wrapper {
+            margin-right: 0;
+            margin-left: auto;
+        }
     }
 }
 
@@ -260,9 +285,16 @@ html body footer {
     margin: 2em;
 }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
     .extra {
         display: none;
+    }
+}
+
+.important {
+    color: @dark-blue;
+    a {
+        white-space: nowrap;
     }
 }
 
@@ -270,6 +302,10 @@ html body footer {
     color: #bbb;
     font-size: 0.8em;
     padding-top: 2em;
+}
+
+.rush.flex {
+    flex-direction: row-reverse;
 }
 
 .schedule {
@@ -296,4 +332,10 @@ html body footer {
 
 .flex-cell-bigger {
     flex: 2;
+}
+
+@media (max-width: 800px) {
+    .flex {
+        flex-direction: column !important;
+    }
 }
