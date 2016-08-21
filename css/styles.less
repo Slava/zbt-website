@@ -1,7 +1,9 @@
 /* real css */
+@blue: rgba(0, 86, 180, 1);
+
 a {
     text-decoration: none;
-    color: rgba(0, 86, 180, 1);
+    color: @blue;
 }
 html {
     height: 100%;
@@ -26,6 +28,14 @@ body h1 {
     font-weight: bold;
     margin-top: 1em;
     margin-bottom: 0.7em;
+}
+
+body h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0.7em;
+    margin-bottom: 0.5em;
+    color: @blue;
 }
 
 .page-container {
@@ -119,8 +129,14 @@ body h1 {
 }
 
 #history.background {
-    height: 400px;
+    height: 350px;
     width: 100%;
+}
+
+#rush.background {
+    height: 350px;
+    background-size: fit;
+    background-position-y: center;
 }
 
 .call-to-action {
@@ -152,7 +168,7 @@ body h1 {
     }
 
     span:hover {
-        color: rgba(0, 86, 180, 1);
+        color: @blue;
     }
 }
 
@@ -208,7 +224,7 @@ hr {
     max-width: 200px;
     height: 1px;
     border: 0;
-    background-image: linear-gradient(to right, rgba(0, 86, 180, 1), rgba(0, 100, 200, 1), rgba(0, 86, 180, 1));
+    background-image: linear-gradient(to right, @blue, rgba(0, 100, 200, 1), @blue);
 
     margin-top: 3em;
     margin-bottom: 8em;
@@ -220,12 +236,14 @@ html body footer {
     margin-top: 5em;
     width: 100%;
     background-color: #282828;
-    text-align: right;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    font-size: 0.8em;
+    justify-content: flex-end;
 
     div {
-        padding-right: 1em;
+        margin: 0.2em;
+        padding-right: 5em;
     }
     span {
         color: #777;
@@ -237,10 +255,44 @@ html body footer {
     }
 }
 
+.image-gallery {
+    margin: 2em;
+}
+
+@media only screen and (max-width: 800px) {
+    .extra {
+        display: none;
+    }
+}
+
+.extra {
+    color: #bbb;
+    font-size: 0.8em;
+    padding-top: 2em;
+}
+
+.schedule {
+    table {
+        tr {
+            padding: 0.3em;
+        }
+        th {
+            font-weight: bold;
+            padding-top: 2em;
+            padding-bottom: 1em;
+            color: @blue;
+        }
+    }
+}
+
 .flex {
     display: flex;
 }
 
 .flex-cell {
     flex: 1;
+}
+
+.flex-cell-bigger {
+    flex: 2;
 }

@@ -40,9 +40,11 @@ module.exports = React.createClass({
         </header>
         <div className="page-container">
         {this.props.children}
-        <footer>
+        <footer className="flex">
           <span>
             <div> MIT Zeta Beta Tau Xi Chapter 2016 </div>
+            <div> Photography by John Chow </div>
+            <div> Webdev by Slava Kim </div>
             <div> <a href="mailto:slv@mit.edu">Contact the tech-chair</a> </div>
           </span>
         </footer>
