@@ -47,13 +47,13 @@ export default class Index extends React.Component {
               <h2>Rush ZBT!</h2>
               <p>Rush is a week-long period at the start of the school year at MIT, when freshmen get to meet us and see all of the other fraternities and living options available to them.</p>
               <p>We have all sorts of activities and mountains of FREE FOOD available for Rush, giving the freshmen the chance to really get to know us and have a fun time doing so.</p>
-              <p><Link to={prefixLink("/rush/")}>Checkout the rush page for details.</Link></p>
+              <p><Link to={prefixLink("/rush/")}>Check out the rush page for details.</Link></p>
             </Row>
             <Row id="party" imageUrl={PartyImg}>
               <h2>Come get to know us!</h2>
               <p>No matter if you go to MIT, Harvard, Wellesley or BU - we welcome new friends to our house.</p>
               <p>Come to events hosted at our house during the school year. We host traditional dance parties open to everyone, as well as classy invite-only Karaoke and desserts evenings called Soiree, and semi-annual formals for brothers and their dates.</p>
-              <p><Link to="https://www.facebook.com/groups/224105661000485/">Join the "ZBT friends" Facebook group</Link> to stay in touch and learn about the upcoming parties.</p>
+              <p><Link to={prefixLink("/events/")}>See the events page</Link> to learn about the upcoming parties, dinners and gatherings.</p>
             </Row>
         </div>
       </DocumentTitle>

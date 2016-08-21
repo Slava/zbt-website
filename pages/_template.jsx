@@ -26,8 +26,8 @@ module.exports = React.createClass({
           <div className="nav">
             <div className="contents flex">
               <span className="left flex-cell flex">
-                <Link className="flex-cell" to={prefixLink("/")}>HOME</Link>
                 <Link className="flex-cell" to={prefixLink("/rush/")}>RUSH</Link>
+                <Link className="flex-cell" to={prefixLink("/events/")}>EVENTS</Link>
                 <Link className="flex-cell" to={prefixLink("/brothers/")}>BROTHERS</Link>
               </span>
               <span className="right flex-cell flex">
