@@ -52,7 +52,7 @@ function WithBoringTextOnSide ({children}) {
   return (
       <div className="flex rush">
         <div className="flex-cell">
-          <p className="important">Call ZBT for rides at <a href="tel:6172323257">617-232-3257</a> to get to any Rush event</p>
+          <p className="important">Call ZBT for rides at <a href="tel:6172323257">617-232-3257</a> to get to any Rush event.</p>
           <p className="extra">This fall we will be opening our house to visitors, come join us for Rush activities! Discover ZBT's culture, chat to brothers, become part of this excellent community. </p>
           <p className="extra">We have all sorts of activities and mountains of <b>free food</b> available for Rush, giving the freshmen the chance to really get to know us and have a fun time doing so.</p>
         </div>
@@ -61,6 +61,7 @@ function WithBoringTextOnSide ({children}) {
   );
 }
 
+let _details;
 function Schedule() {
   const events = parseText();
   const byDay = {};
@@ -78,21 +79,48 @@ function Schedule() {
       <tr key={key}><th></th><th>{key}</th></tr>
     );
     byDay[key].forEach((x, i) => {
+      const deets = (e) => {
+        _details.setState(x);
+        _details.setState({visible: true});
+        e.preventDefault();
+      };
       tableRows.push(
-        <tr key={key + i}><td>{x['time']}</td><td>{x['title']}</td></tr>
+        <tr key={key + i}>
+          <td>{x['time']}</td>
+          <td>{x['title']} <a href="#" onClick={deets}>details</a></td>
+        </tr>
       );
     });
   });
 
   return (
       <div className="schedule">
-      <table>
-      <tbody>
-        {tableRows}
-        </tbody>
-      </table>
+        <DetailsPane ref={(ref) => _details = ref }/>
+        <table>
+        <tbody>
+          {tableRows}
+          </tbody>
+        </table>
       </div>
   );
+}
+
+class DetailsPane extends React.Component {
+  constructor() {
+    super();
+    this.state = { title: '', day: '', time: '', desc: '', visible: false };
+  }
+
+  render() {
+    return (
+      <div className={"details-pane " + (this.state.visible ? "" : "hidden")}>
+        <a onClick={() => {this.setState({visible: false})}}>&times;</a>
+        <h2>{this.state.title}</h2>
+        <h3>{this.state.time} - {this.state.day}</h3>
+        <p>{this.state.desc}</p>
+      </div>
+    );
+  }
 }
 
 function parseText() {
@@ -237,14 +265,14 @@ Want to channel your inner Happy Gilmore? Ever wanted to putt like Tiger? Come p
 Title: Dinner and MetroRock
 Time: Friday, September 9, 6:00pm - 10:00pm
 Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
-Tag: Invite Only
 Description
 Meet at the house before heading out to dinner at a nearby restaurant.  Following dinner, we’ll head to Metro Rock for a night of climbing up walls- or falling off of them.  No experience required; we’ll teach you what you need to know.  Call ZBT for rides at 617-232-3257.
+Tag: Invite Only
 
 Title: Harbor Cruise to George’s Island
 Time: Saturday, September 10
 Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
-Tag: Invite Only
 Description
 Explore the Boston harbor with ZBT! We’ll voyage out to George’s island, home of great views and a colonial fort with towers, dungeons, and cannons that’ll bring you right back to the good old days- cerca 1825.  We’ll explore the island, take a dip in the ocean, and then met back in the central courtyard to chill, picnic, and play frisbee, soccer, and football. We’ll meet at ZBT before and after the event- call for rides at 617-232-3257.
+Tag: Invite Only
 `;

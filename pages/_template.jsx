@@ -77,7 +77,7 @@ function Nav() {
         </span>
       </div>
       <div className="small-nav contents">
-        <Dropdown list={dropdownList} selected={"---"} onSelected={navigate}/>
+        <Dropdown list={dropdownList} selected={"GO TO PAGE"} onSelected={navigate}/>
       </div>
     </div>
   );

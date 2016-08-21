@@ -33,6 +33,7 @@ body h1 {
 
 body h2 {
     font-size: 2em;
+    line-height: 1.1em;
     font-weight: bold;
     margin-top: 0.7em;
     margin-bottom: 0.5em;
@@ -125,6 +126,27 @@ body h2 {
     }
 }
 
+.details-pane {
+    position: fixed;
+    top: 5em;
+    width: 400px;
+    max-height: 640px;
+    z-index: 400;
+    background-color: #eee;
+    padding: 1em;
+    padding-bottom: 2em;
+    padding-top: 0.5em;
+    box-shadow: 1px 1px 10px #888;
+
+    a {
+        float: right;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
 .background {
     background-size: cover;
     width: 100%;
@@ -201,6 +223,7 @@ body h2 {
     font-family: 'PT Sans',sans-serif;
     color: #333;
     font-size: 1.2em;
+    line-height: 1.3em;
 }
 
 
@@ -234,6 +257,7 @@ body h2 {
         h2 {
             font-size: 1.5em;
             font-weight: bold;
+            line-height: 1.6em;
         }
     }
 
@@ -296,11 +320,20 @@ html body footer {
     a {
         white-space: nowrap;
     }
+
+    border: 1px solid @dark-blue;
+    padding: 0.6em;
+    border-radius: 3px;
+
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .extra {
     color: #bbb;
     font-size: 0.8em;
+    line-height: 1.2em;
     padding-top: 2em;
 }
 
@@ -310,6 +343,11 @@ html body footer {
 
 .schedule {
     table {
+        a {
+            font-size: 0.5em;
+            vertical-align: top;
+            color: #aaa;
+        }
         tr {
             padding: 0.3em;
         }
