@@ -6,12 +6,12 @@ import { prefixLink } from '../utils/urls.js'
 
 import '../css/dropdown.less';
 
-export function Split({ children }) {
+export function Split({ children, id }) {
   if (children.length !== 2)
     throw new Error('Split expects exactly 2 children!');
 
   return (
-      <div className={"flex row"}>
+      <div id={id} className={"flex row"}>
       <div key={1} className="col">{children.slice(0, 1)}</div>
       <div key={2} className="col">{children.slice(1, 2)}</div>
       </div>

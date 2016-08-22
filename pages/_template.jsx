@@ -15,7 +15,7 @@ module.exports = React.createClass({
   },
   render () {
     return (
-      <div>
+      <div id="zbt-root">
         <header>
           <div className="logo">
             <span className="logo-pic">

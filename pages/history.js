@@ -5,10 +5,12 @@ import { config } from 'config'
 import {
   Row,
   Splash,
+  Split,
 } from './_sharedComponents'
 
 import { prefixLink } from '../utils/urls.js'
 import CoverImg from '../static/history.jpg';
+import HouseImg from '../static/house-cover.jpg';
 
 const aLotOfText = `
 The Xi Chapter at MIT was founded in 1911 with help from Zebes from New York and Boston University. We were the 15th chapter of Zeta Beta Tau formed (there are now over 80). For the first few years, we moved about from house to house and location to location. Many of the first houses were on Newbury Street. When MIT moved from Boston to its current location in 1916, however, there was some tumult in our chapter, and it eventually found its way down to one man. World War I also weakened the chapter. Xi attempted to rebuild itself after this, but it eventually failed. By 1926, the chapter had dissolved.
@@ -42,7 +44,15 @@ export default class History extends React.Component {
             <Splash id="history" imageUrl={CoverImg}></Splash>
             <div className="contents typography">
               <h1>History of Xi Chapter</h1>
-              {aLotOfText.split("\n").map((text, id) => <p key={id}>{text}</p>)}
+        {
+          aLotOfText.split("\n").map(
+            (text, id) =>
+              !text.match(/\$250/) ? <p key={id}>{text}</p> :
+            (
+                <Split key={id} id="house-paragraph"><p>{text}</p><img src={prefixLink(HouseImg)}/></Split>
+            )
+          )
+        }
             </div>
           </div>
         </DocumentTitle>
