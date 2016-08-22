@@ -29,7 +29,7 @@ import RushImg5Thumb from '../static/rush-photo-5.thumb.jpg';
 import RushImg6Thumb from '../static/rush-photo-6.thumb.jpg';
 
 const thumbs = [RushImg1Thumb, RushImg2Thumb, RushImg3Thumb, RushImg4Thumb, RushImg5Thumb, RushImg6Thumb];
-const rushPhotos = [RushImg1, RushImg2, RushImg3, RushImg4, RushImg5, RushImg6].map((url, i) => ({original: url, thumbnail: thumbs[i]}));
+const rushPhotos = [RushImg1, RushImg2, RushImg3, RushImg4, RushImg5, RushImg6].map((url, i) => ({original: prefixLink(url), thumbnail: prefixLink(thumbs[i])}));
 
 export default function ({}) {
   return (
