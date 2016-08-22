@@ -6,6 +6,18 @@ import { prefixLink } from '../utils/urls.js'
 
 import '../css/dropdown.less';
 
+export function Split({ children }) {
+  if (children.length !== 2)
+    throw new Error('Split expects exactly 2 children!');
+
+  return (
+      <div className={"flex row"}>
+      <div key={1} className="col">{children.slice(0, 1)}</div>
+      <div key={2} className="col">{children.slice(1, 2)}</div>
+      </div>
+  );
+}
+
 export function Row({ flipped, children, id, imageUrl }) {
   const imgStyle = {
     backgroundImage: `url("${prefixLink(imageUrl)}")`
