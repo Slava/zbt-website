@@ -26,6 +26,7 @@ header {
 
 body h1 {
     font-size: 3em;
+    line-height: 1.1em;
     font-weight: bold;
     margin-top: 1em;
     margin-bottom: 0.7em;
@@ -133,6 +134,7 @@ body h2 {
     max-height: 640px;
     z-index: 400;
     background-color: #eee;
+    overflow: scroll;
     padding: 1em;
     padding-bottom: 2em;
     padding-top: 0.5em;
@@ -140,6 +142,13 @@ body h2 {
 
     a {
         float: right;
+    }
+
+    @media(max-width:500px) {
+        width: 100vw;
+        top: 1em;
+        max-height: 95vh;
+        left: 0 !important;
     }
 }
 
@@ -160,6 +169,16 @@ body h2 {
         color: #DDD;
         padding-top: 2em;
         padding-left: 3em;
+    }
+
+    @media(max-width: 500px) {
+        background-position-x: center;
+
+        .caption {
+            padding-top: 6em;
+            padding-left: 1em;
+            font-size: 2.7em;
+        }
     }
 }
 
@@ -193,7 +212,6 @@ body h2 {
         color: #FFFFFF;
         transition: color 0.4s ease 0s;
         display: inline-block;
-        padding: 1em;
         position: relative;
         white-space: nowrap;
     }
@@ -224,6 +242,11 @@ body h2 {
     color: #333;
     font-size: 1.2em;
     line-height: 1.3em;
+
+    @media(max-width: 500px) {
+        font-size: 1em;
+        line-height: 1em;
+    }
 }
 
 
