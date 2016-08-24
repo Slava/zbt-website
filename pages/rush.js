@@ -2,17 +2,15 @@ import React from 'react'
 import { Link } from 'react-router'
 import DocumentTitle from 'react-document-title'
 import { config } from 'config'
-import ImageGallery from 'react-image-gallery'
 
 import {
   Row,
   Splash,
+  ImgGallery,
 } from './_sharedComponents'
 
 import { prefixLink } from '../utils/urls.js'
 import CoverImg from '../static/rush-cover.jpg';
-
-import '../node_modules/react-image-gallery/build/image-gallery.css';
 
 import RushImg1 from '../static/rush-photo-1.jpg';
 import RushImg2 from '../static/rush-photo-2.jpg';
@@ -21,15 +19,7 @@ import RushImg4 from '../static/rush-photo-4.jpg';
 import RushImg5 from '../static/rush-photo-5.jpg';
 import RushImg6 from '../static/rush-photo-6.jpg';
 
-import RushImg1Thumb from '../static/rush-photo-1.thumb.jpg';
-import RushImg2Thumb from '../static/rush-photo-2.thumb.jpg';
-import RushImg3Thumb from '../static/rush-photo-3.thumb.jpg';
-import RushImg4Thumb from '../static/rush-photo-4.thumb.jpg';
-import RushImg5Thumb from '../static/rush-photo-5.thumb.jpg';
-import RushImg6Thumb from '../static/rush-photo-6.thumb.jpg';
-
-const thumbs = [RushImg1Thumb, RushImg2Thumb, RushImg3Thumb, RushImg4Thumb, RushImg5Thumb, RushImg6Thumb];
-const rushPhotos = [RushImg1, RushImg2, RushImg3, RushImg4, RushImg5, RushImg6].map((url, i) => ({original: prefixLink(url), thumbnail: prefixLink(thumbs[i])}));
+const rushPhotos = [RushImg1, RushImg2, RushImg3, RushImg4, RushImg5, RushImg6].map(url => ({src: prefixLink(url)}));
 
 export default function ({}) {
   return (
@@ -41,7 +31,7 @@ export default function ({}) {
             <WithBoringTextOnSide>
               <Schedule/>
             </WithBoringTextOnSide>
-            <ImageGallery items={rushPhotos}/>
+            <ImgGallery images={rushPhotos} useLightbox />
           </div>
         </div>
       </DocumentTitle>
