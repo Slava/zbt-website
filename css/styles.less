@@ -143,28 +143,15 @@ body b {
     }
 }
 
-.details-pane {
-    position: fixed;
-    top: 5em;
-    width: 400px;
-    max-height: 640px;
-    z-index: 400;
-    background-color: #eee;
-    overflow: scroll;
-    padding: 1em;
-    padding-bottom: 2em;
-    padding-top: 0.5em;
-    box-shadow: 1px 1px 10px #888;
-
-    a {
-        float: right;
+.skylight-dialog {
+    @media(max-width: 600px) {
+        width: 90% !important;
+        left: 1% !important;
+        margin-left: 0% !important;
     }
 
-    @media(max-width: 600px) {
-        width: 100vw;
-        top: 1em;
-        max-height: 95vh;
-        left: 0 !important;
+    .skylight-close-button {
+        top: 10px !important;
     }
 }
 

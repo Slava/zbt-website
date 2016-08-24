@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import DocumentTitle from 'react-document-title'
+import SkyLight from 'react-skylight'
 import { config } from 'config'
 
 import {
@@ -54,8 +55,10 @@ function WithBoringTextOnSide ({children}) {
   );
 }
 
-let _details;
 function Schedule() {
+  let openDeetsFn = () => {};
+  let _details;
+
   const events = parseText();
   const byDay = {};
   events.forEach(x => { byDay[x.day] = byDay[x.day] ? [...byDay[x.day], x] : [x] });
@@ -74,7 +77,7 @@ function Schedule() {
     byDay[key].forEach((x, i) => {
       const deets = (e) => {
         _details.setState(x);
-        _details.setState({visible: true, posx: (window.innerWidth - 400) / 2});
+        openDeetsFn();
         e.preventDefault();
       };
       tableRows.push(
@@ -88,7 +91,7 @@ function Schedule() {
 
   return (
       <div className="schedule">
-        <DetailsPane ref={(ref) => _details = ref }/>
+        <DetailsPane ref={(ref) => _details = ref } cb={(f) => openDeetsFn = f}/>
         <table>
         <tbody>
           {tableRows}
@@ -101,19 +104,16 @@ function Schedule() {
 class DetailsPane extends React.Component {
   constructor() {
     super();
-    this.state = { title: '', day: '', time: '', desc: '', visible: false, posx: 0 };
+    this.state = { title: '', day: '', time: '', desc: '' };
   }
 
   render() {
-    const classString = "details-pane " + (this.state.visible ? "" : "hidden");
-    const style = { left: this.state.posx };
+    this.props.cb(() => this.refs.deetsPopup.show());
     return (
-      <div className={classString} style={style}>
-        <a onClick={() => {this.setState({visible: false})}}>&times;</a>
-        <h2>{this.state.title}</h2>
-        <h3>{this.state.time} - {this.state.day}</h3>
-        <p>{this.state.desc}</p>
-      </div>
+          <SkyLight hideOnOverlayClicked ref="deetsPopup" title={this.state.title}>
+            <h3>{this.state.time} - {this.state.day}</h3>
+            <p>{this.state.desc}</p>
+          </SkyLight>
     );
   }
 }
