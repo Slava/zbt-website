@@ -13,6 +13,7 @@ import CoverImg from '../static/house-cover.jpg';
 import CommonsImg from '../static/commons.jpg';
 import HouseImg from '../static/house.jpg';
 import VanImg from '../static/van.jpg';
+import MapImg from '../static/zbt-map.png';
 
 import { prefixLink } from '../utils/urls.js'
 
@@ -55,12 +56,6 @@ export default function (props) {
 function Map() {
 
   return (
-      <iframe
-        className="google-map embed"
-        height="350"
-        frameBorder="0" style={{border: 0}}
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBidnZGM9cqJcD96t5rqD2RZKlIi4LsZNk
-        &q=Zeta+Beta+Tau,+Brookline,+MA" allowFullScreen>
-      </iframe>
+      <a className="google-map" target="_blank" href="https://www.google.com/maps?ll=42.348753,-71.123965&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=5115194609222036849"><img height="350" src={prefixLink(MapImg)}/></a>
   );
 }
