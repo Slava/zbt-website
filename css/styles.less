@@ -499,6 +499,9 @@ html body footer {
 
         img {
             max-width: 200px;
+            @media(max-width: 800px) {
+                max-width: 100px;
+            }
         }
         span {
             height: 2.5em;
@@ -513,6 +516,16 @@ html body footer {
             width: 100%;
 
             background-color: #222;
+
+            @media(max-width: 800px) {
+                height: 1em;
+                line-height: 1em;
+                font-size: 0.5em;
+            }
+
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
     }
 }
