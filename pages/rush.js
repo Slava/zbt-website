@@ -33,6 +33,9 @@ export default function ({}) {
             </WithBoringTextOnSide>
             <ImgGallery images={rushPhotos} useLightbox />
           </div>
+          <div className="contents typography">
+            <h2></h2>
+          </div>
         </div>
       </DocumentTitle>
   );

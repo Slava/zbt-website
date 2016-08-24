@@ -12,6 +12,8 @@ import {
   ImgGallery,
 } from './_sharedComponents'
 
+const brothersInfo = require('./_brothers-data.js')
+
 import CoverImg from '../static/brothers-cover.jpg';
 import BrothersImg1 from '../static/brothers-1.jpg';
 import BrothersImg2 from '../static/brothers-2.jpg';
@@ -27,6 +29,8 @@ import BrothersImg11 from '../static/brothers-11.jpg';
 import BrothersImg12 from '../static/brothers-12.jpg';
 
 const brothersPhotos = [BrothersImg1, BrothersImg2, BrothersImg3, BrothersImg4, BrothersImg5, BrothersImg6, BrothersImg7, BrothersImg8, BrothersImg9, BrothersImg10, BrothersImg11, BrothersImg12 ].map(url => ({src: prefixLink(url)}));
+
+console.log(brothersInfo);
 
 export default function (props) {
   return (
