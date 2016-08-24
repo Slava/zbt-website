@@ -12,6 +12,8 @@ import {
   ImgGallery,
 } from './_sharedComponents'
 
+import CoverImg from '../static/alumni-cover.jpg';
+
 export default function (props) {
   return (
       <DocumentTitle title={"Alumni | " + config.siteTitle}>
