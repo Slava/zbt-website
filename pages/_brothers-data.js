@@ -386,7 +386,7 @@ module.exports = [
   {
     "classname": "Beta Kappa - Class of 2018",
     "classid": "BetaKappa",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers/Maeda%2C+Tomohiro.jpg",
     "name": "Tomohiro Maeda",
     "major": "6-1 Electrical Engineering",
     "minor": "",
@@ -434,7 +434,7 @@ module.exports = [
   {
     "classname": "Beta Kappa - Class of 2018",
     "classid": "BetaKappa",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers/Homberg%2C+Steven.jpg",
     "name": "Steven Homberg",
     "major": "6-2 - Electrical Engineering and Computer Science, 18 - Mathematics",
     "minor": "",
@@ -590,7 +590,7 @@ module.exports = [
     "classid": "BetaLambda",
     "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/alap.jpg",
     "name": "Alap Sahoo - #13",
-    "bio": "Straight 2400 [on the SAT]. Life goal achieved. I am Alap. I came to MIT to leave the s[***]-hole of Bakersfield, California. Besides watching Netflix  ;), I love rapid shooting and giving zero [d]ucks about life. I am interested in a computer science major, so that I can revolutionize the [adult entertainment] industry. I also enjoy reading, teaching, video games, and biology research` I plan on selling my soul to science to create a better world, [wooing those] Asian [*insert respectful term for women here*] and making a s[***]-ton of money.`
+    "bio": `Straight 2400 [on the SAT]. Life goal achieved. I am Alap. I came to MIT to leave the s[***]-hole of Bakersfield, California. Besides watching Netflix  ;), I love rapid shooting and giving zero [d]ucks about life. I am interested in a computer science major, so that I can revolutionize the [adult entertainment] industry. I also enjoy reading, teaching, video games, and biology research I plan on selling my soul to science to create a better world, [wooing those] Asian [*insert respectful term for women here*] and making a s[***]-ton of money.`
     },
   {
     "classname": "Beta Lambda - Class of 2019",
