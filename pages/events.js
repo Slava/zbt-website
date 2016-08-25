@@ -32,13 +32,13 @@ export default function (props) {
       </Row>
               <Row id="dinners" imageUrl={DinnerImg}>
                 <h2>Dinners</h2>
-                <p>We invite our friends to dinners at the house on weekdays. Let us delight you with a great company and a high quality dinner. Researches has shown that dinners of ribs and teriyaki salmon improve friendships and strengthen the bond by 50% each time.</p>
+                <p>We invite our friends to dinners at the house on weekdays. Let us delight you with a great company and a high quality dinner. Research has shown that dinners of ribs and teriyaki salmon improve friendships and strengthen bonds by 50%.</p>
               </Row>
-      <Row id="gotb" flipped imageUrl={GotbImg}>
-      <h2>Get On The Ball</h2>
-      <p>Get On The Ball is a philantropy event that ZBT brothers organize every year in order to raise donations for various non-profit organisations.</p>
-      <p>During MIT's Campus Preview Weekend, our campus is filled with prospective students and their parents.  Get on the Ball spreads awareness about the work of the Boston Children’s Hospital by asking students and visitors to sign a giant, rainbow-colored ball.  Our sponsors pledge to donate a certain amount for every signature we collect or a lump sum to support the event.  We show our appreciation for our sponsors by displaying their logos on the physical ball that we roll around for people to sign, and on Twitter, Facebook, and posters.</p>
-      </Row>
+              <Row id="gotb" flipped imageUrl={GotbImg}>
+                <h2>Get On The Ball</h2>
+                <p>Get On The Ball is a philantropy event that ZBT brothers organize every year in order to raise donations for Children's Miracle Network.</p>
+                <p>During MIT's Campus Preview Weekend, our campus is filled with prospective students and their parents.  Get on the Ball spreads awareness about the work of the Boston Children’s Hospital by asking students and visitors to sign a giant, rainbow-colored ball.  Our sponsors pledge to donate a certain amount for every signature we collect or a lump sum to support the event.  We show our appreciation for our sponsors by displaying their logos on the physical ball that we roll around for people to sign, and on Twitter, Facebook, and posters.</p>
+              </Row>
         </div>
       </DocumentTitle>
   );

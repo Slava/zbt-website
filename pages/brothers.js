@@ -47,6 +47,7 @@ export default function (props) {
             <ImgGallery images={brothersPhotos} useLightbox />
           </div>
           <hr/>
+      <ClassesTabs/>
           <ClassGallery classid="BetaTheta" onSelect={onSelect}/>
           <ClassGallery classid="BetaIota" onSelect={onSelect}/>
           <ClassGallery classid="BetaKappa" onSelect={onSelect}/>
@@ -55,6 +56,31 @@ export default function (props) {
         </div>
       </DocumentTitle>
   );
+}
+
+class ClassesTabs extends React.Component {
+  constructor() {
+    super();
+    this.state = { current: 'BetaLambda' };
+  }
+
+  render() {
+    const greekify = (s) => {
+      const name = s.split('Beta')[1];
+      return `&Beta;&${name};`;
+    };
+
+    const classes = ['BetaTheta', 'BetaIota', 'BetaKappa', 'BetaLambda'];
+    const { current } = this.state;
+    return (
+        <div className="classes-tabs">
+        {
+          classes.map((name) =>
+                      <span key={name} className="tab" dangerouslySetInnerHTML={{__html: greekify(name)}}/>)
+        }
+        </div>
+    );
+  }
 }
 
 class BrotherPane extends React.Component {
@@ -78,13 +104,8 @@ class BrotherPane extends React.Component {
 }
 
 class ClassGallery extends React.Component {
-  constructor() {
-    super();
-    this.state = {open: false};
-  }
   render() {
     const { classid } = this.props;
-    const { open } = this.state;
 
     const brothers = brothersInfo.filter(b => b.classid === classid);
     const brothersCards = brothers.map((brotherDoc) => {
@@ -98,16 +119,12 @@ class ClassGallery extends React.Component {
         </div>
       );
     });
-    const flip = (e) => {
-      e.preventDefault();
-      this.setState({ open: !open });
-    };
 
     return (
         <div className="class-gallery">
-          <a href="#" onClick={flip}><h2>{brothers[0].classname}</h2></a>
+          <h2>{brothers[0].classname}</h2>
           <div className="cards">
-          {open ? brothersCards : []}
+            {brothersCards}
           </div>
         </div>
     );
