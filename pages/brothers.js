@@ -47,7 +47,6 @@ export default function (props) {
             <ImgGallery images={brothersPhotos} useLightbox />
           </div>
           <hr/>
-      <ClassesTabs/>
           <ClassGallery classid="BetaTheta" onSelect={onSelect}/>
           <ClassGallery classid="BetaIota" onSelect={onSelect}/>
           <ClassGallery classid="BetaKappa" onSelect={onSelect}/>
