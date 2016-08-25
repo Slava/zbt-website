@@ -485,6 +485,7 @@ html body footer {
     }
 
     .brother-card {
+        cursor: pointer;
         margin: 1em;
         position: relative;
 
@@ -518,6 +519,21 @@ html body footer {
             text-overflow: ellipsis;
             white-space: nowrap;
         }
+    }
+
+    @media(max-width: 800px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.skylight-dialog {
+    max-height: 400px;
+    overflow-y: auto;
+
+    .brother-bio {
+        position:relative;
+        width:100%;
     }
 }
 

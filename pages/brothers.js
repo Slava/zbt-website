@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import DocumentTitle from 'react-document-title'
+import SkyLight from 'react-skylight'
 import { config } from 'config'
 
 import { prefixLink } from '../utils/urls.js'
@@ -31,6 +32,11 @@ import BrothersImg12 from '../static/brothers-12.jpg';
 const brothersPhotos = [BrothersImg1, BrothersImg2, BrothersImg3, BrothersImg4, BrothersImg5, BrothersImg6, BrothersImg7, BrothersImg8, BrothersImg9, BrothersImg10, BrothersImg11, BrothersImg12 ].map(url => ({src: prefixLink(url)}));
 
 export default function (props) {
+  let _brother;
+  let openBrotherFn = () => {};
+
+  const onSelect = (brotherDoc) => _brother.setState(brotherDoc) + openBrotherFn();
+
   return (
       <DocumentTitle title={"Brothers | " + config.siteTitle}>
         <div>
@@ -41,13 +47,34 @@ export default function (props) {
             <ImgGallery images={brothersPhotos} useLightbox />
           </div>
           <hr/>
-          <ClassGallery classid="BetaTheta"/>
-          <ClassGallery classid="BetaIota"/>
-          <ClassGallery classid="BetaKappa"/>
-          <ClassGallery classid="BetaLambda"/>
+          <ClassGallery classid="BetaTheta" onSelect={onSelect}/>
+          <ClassGallery classid="BetaIota" onSelect={onSelect}/>
+          <ClassGallery classid="BetaKappa" onSelect={onSelect}/>
+          <ClassGallery classid="BetaLambda" onSelect={onSelect}/>
+          <BrotherPane ref={(ref) => _brother = ref} cb={(f) => openBrotherFn = f}/>
         </div>
       </DocumentTitle>
   );
+}
+
+class BrotherPane extends React.Component {
+  constructor() {
+    super();
+    this.state = { name: '', classname: '', bio: '' };
+  }
+
+  render() {
+    this.props.cb(() => this.refs.brotherPopup.show());
+    return (
+        <SkyLight hideOnOverlayClicked ref="brotherPopup" title={this.state.title}>
+          <div className="contents typography">
+            <h2>{this.state.name}</h2>
+            <h3>{this.state.classname}</h3>
+            <p className="brother-bio">{this.state.bio}</p>
+          </div>
+        </SkyLight>
+    );
+  }
 }
 
 class ClassGallery extends React.Component {
@@ -60,12 +87,17 @@ class ClassGallery extends React.Component {
     const { open } = this.state;
 
     const brothers = brothersInfo.filter(b => b.classid === classid);
-    const brothersCards = brothers.map(({imgurl, name, bio}) => (
+    const brothersCards = brothers.map((brotherDoc) => {
+      const {imgurl, name, bio} = brotherDoc;
+      return (
         <div key={name} className="brother-card">
-        <img src={imgurl}/>
-        <span className="name">{name}</span>
+        <a onClick={(e) => {e.preventDefault(); this.props.onSelect(brotherDoc)}}>
+            <img src={imgurl}/>
+            <span className="name">{name}</span>
+          </a>
         </div>
-    ));
+      );
+    });
     const flip = (e) => {
       e.preventDefault();
       this.setState({ open: !open });

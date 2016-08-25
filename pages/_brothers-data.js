@@ -482,7 +482,7 @@ module.exports = [
   {
     "classname": "Beta Kappa - Class of 2018",
     "classid": "BetaKappa",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/jeffsun.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/aaron.jpg",
     "name": "Aaron Lin",
     "major": "6-2 Electrical Engineering and omputer Science, 9 - Brain and Cognitive Sciences",
     "minor": "",
