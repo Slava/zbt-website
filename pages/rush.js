@@ -30,7 +30,6 @@ export default function ({}) {
           <div className="contents typography">
             <h1>Rush ZBT this fall!</h1>
             <WithBoringTextOnSide>
-              <Schedule/>
             </WithBoringTextOnSide>
             <ImgGallery images={rushPhotos} useLightbox />
           </div>
