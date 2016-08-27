@@ -136,7 +136,7 @@ body b {
         .small-nav {
             display: block;
             position: absolute;
-            left: 150px;
+            left: 130px;
             top: 0px;
         }
         .big-nav { display: none; }
@@ -144,7 +144,7 @@ body b {
 }
 
 .skylight-dialog {
-    @media(max-width: 600px) {
+    @media(max-width: 800px) {
         width: 90% !important;
         left: 1% !important;
         margin-left: 0% !important;
@@ -178,12 +178,12 @@ body b {
         }
     }
 
-    @media(max-width: 600px) {
+    @media(max-width: 800px) {
         background-position-x: center;
 
         .caption {
             padding-top: 6em;
-            padding-left: 1em;
+            padding-left: 0.3em;
             font-size: 2.7em;
         }
     }
@@ -271,7 +271,7 @@ body b {
     font-size: 1.2em;
     line-height: 1.3em;
 
-    @media(max-width: 600px) {
+    @media(max-width: 800px) {
         font-size: 1em;
         line-height: 1em;
     }
@@ -351,7 +351,6 @@ hr {
 
 html body footer {
     margin-top: 5em;
-    width: 100%;
     background-color: #282828;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -469,19 +468,30 @@ html body footer {
     margin-left: 1em;
     margin-right: 1em;
     text-align: center;
-    padding: 2em;
+
+    @media(max-width: 800px) {
+        margin: 0;
+    }
 
     h2 {
         font-family: 'PT Sans';
         font-weight: bolder;
         font-size: 3em;
-        border-bottom: 1px dotted #ccc;
+
+        @media(max-width: 800px) {
+            font-size: 1.5em;
+        }
     }
 
     .cards {
+        padding: 2em;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+
+        @media(max-width: 800px) {
+            padding: 0 1em;
+        }
     }
 
     .brother-card {

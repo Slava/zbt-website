@@ -2,6 +2,10 @@ import React from 'react'
 import { Link } from 'react-router'
 import DocumentTitle from 'react-document-title'
 import SkyLight from 'react-skylight'
+import Tabs from 'react-simpletabs'
+import '../node_modules/react-simpletabs/lib/react-simpletabs.css'
+import '../css/tabs.css'
+
 import { config } from 'config'
 
 import { prefixLink } from '../utils/urls.js'
@@ -47,10 +51,20 @@ export default function (props) {
             <ImgGallery images={brothersPhotos} useLightbox />
           </div>
           <hr/>
-          <ClassGallery classid="BetaTheta" onSelect={onSelect}/>
-          <ClassGallery classid="BetaIota" onSelect={onSelect}/>
-          <ClassGallery classid="BetaKappa" onSelect={onSelect}/>
-          <ClassGallery classid="BetaLambda" onSelect={onSelect}/>
+          <Tabs>
+            <Tabs.Panel title="βθ">
+              <ClassGallery classid="BetaTheta" onSelect={onSelect}/>
+            </Tabs.Panel>
+            <Tabs.Panel title="βι">
+              <ClassGallery classid="BetaIota" onSelect={onSelect}/>
+            </Tabs.Panel>
+            <Tabs.Panel title="βκ">
+              <ClassGallery classid="BetaKappa" onSelect={onSelect}/>
+            </Tabs.Panel>
+            <Tabs.Panel title="βλ">
+              <ClassGallery classid="BetaLambda" onSelect={onSelect}/>
+            </Tabs.Panel>
+          </Tabs>
           <BrotherPane ref={(ref) => _brother = ref} cb={(f) => openBrotherFn = f}/>
         </div>
       </DocumentTitle>
