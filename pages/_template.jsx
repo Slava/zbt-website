@@ -5,6 +5,8 @@ import { prefixLink } from '../utils/urls.js'
 import { Dropdown } from './_sharedComponents';
 import '../css/markdown-styles'
 
+import '../analytics.js';
+
 import LogoImg from '../static/zbt-logo.png';
 
 module.exports = React.createClass({
