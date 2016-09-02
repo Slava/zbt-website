@@ -47,7 +47,7 @@ export default function (props) {
           <Splash id="brothers" imageUrl={CoverImg}/>
           <div className="contents typography">
             <h1>Brothers</h1>
-            <p>ZBT, originally a jewish fraternity, is open to All Men of Good Character. Our house attracts smart and energetic young men interested in sciences and engineering with wide range of athletic and academic interests. Many brothers are very active on campus, leading various student organisations and clubs, dancing in troups, trading, playing poker and teaching web development to the wider MIT community. Many brothers are also involved in student clubs working with kids in Boston area such as <a href="http://campkesem.org/mit">Camp Kesem</a> and <a href="http://mitdynamit.weebly.com/">DynaMIT</a>.</p>
+            <p>ZBT is a non-pledging, historically Jewish fraternity open to all men of good character. Our house attracts smart and energetic young men interested in sciences and engineering with wide range of athletic and academic interests. Many brothers are very active on campus, leading various student organisations and clubs, dancing in troups, trading, playing poker and teaching web development to the wider MIT community. Many brothers are also involved in student clubs working with kids in Boston area such as <a href="http://campkesem.org/mit">Camp Kesem</a> and <a href="http://mitdynamit.weebly.com/">DynaMIT</a>.</p>
             <ImgGallery images={brothersPhotos} useLightbox />
           </div>
           <hr/>
