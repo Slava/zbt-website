@@ -98,18 +98,6 @@ module.exports = [
   {
     "classname": "Beta Theta - Class of 2016",
     "classid": "BetaTheta",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/kli.jpg",
-    "name": "Kevin Li",
-    "major": "18 - Mathematics, 6-3 - Computer Science and Engineering",
-    "minor": "",
-    "hometown": "College Station, TX",
-    "big": "Amruth Venkatraman",
-    "littles": "Dong-gil Shin",
-    "bio": "Howdy! My name is Kevin Li and I am Beta Theta number 10. I was born in Guelph, Ontario but I grew up with my parents and sister in College Station, Texas. Throughout high school I was part of the Science Bowl team, BPA, math club, and ping pong club. I met many current and former brothers at the Texas Honors Summer Math Camp which persuaded me to join ZBT and pursue course 18. Besides academics, I enjoy playing basketball, Frisbee, and other sports. With all the activities that MIT offers, I hope to discover new passions and meet new friends. I am looking forward to the MIT and ZBT experience."
-  },
-  {
-    "classname": "Beta Theta - Class of 2016",
-    "classid": "BetaTheta",
     "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/alan.jpg",
     "name": "Alan Chiao",
     "major": "6-3 - Computer Science and Engineering",
