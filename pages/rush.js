@@ -167,7 +167,7 @@ Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
 Description:
 This is SPARTA!! Actually, it’s just the Charles river. Wanna get soaked in the river just for the fun of it? Wanna throw some water balloons at people because why not?  Come to ZBT Battle Canoeing! We will be renting boats to go on the Charles. Life jackets will be available and your electronics will be taken care of. Free transportation! Call us at 617-232-3257 for rides.
 
-Title: Dinner at ZBT: Taste of Italy
+Title: Dinner Taste of Italy
 Time: Sunday, September 4, 5:15pm-6:15pm
 Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
 Description:
@@ -197,7 +197,7 @@ Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
 Description
 Become an artist as you splatter your opponents with paint to create a masterpiece on the battlefield of P&L Paintball. Join our ranks to show your strength in glorious battle and become an elite baller. Provisions will be provided, thanks to our chef, with vegetarian options available. Extra body canvases (white T-shirts) will be available, but it is recommended to bring clothes you don’t mind to dirty. Meet at ZBT house to start your journey. For rides, call us at 617-232-3257!
 
-Title: Dinner at ZBT: Teriyaki Salmon
+Title: Dinner Teriyaki Salmon
 Time: Monday, September 5, 6:00pm-7:30pm
 Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
 Description
@@ -220,7 +220,7 @@ Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
 Description
 Are you the hero MIT needs but doesn’t deserve? Are you hungry but broke? Do you wanna eat what Donald Trump eats every morning? Come to ZBT for the Breakfast of Champions! We have made to order breakfast by our chef. Everything from omelettes to french toast, sausages to a lavish continental spreads will be available. Vegetarians welcome! More food than you can stuff in your mouth! Free transportation! Call us at 617-232-3257 for rides.
 
-Title: Dinner at ZBT: Steak Night
+Title: Dinner Steak Night
 Time: Tuesday, September 6, 6:00pm-8:00pm
 Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
 Description
@@ -232,7 +232,7 @@ Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
 Description
 Parents told you to reach for the stars but you don’t want to try hard? Well, then come to Trampoline Dodgeball with ZBT! We will be going to Skyzone and jumping higher than Neil Armstrong on the moon! For transportation, call ZBT for rides at 617-232-3257.
 
-Title: Dinner at ZBT: Jambalaya
+Title: Dinner Jambalaya
 Time: Wednesday, September 7, 5:30pm-7:00pm
 Safety plan: none
 Description
@@ -245,7 +245,7 @@ Description
 Using only your wits, your friends, and one hour of your time, see if you can break free from a room filled with puzzles, locks, and mysterious items of all varieties. We’ll meet a ZBT and then head out to one of two Escape Room locations in Boston.  Those who make it out will be driven back to ZBT afterwards; those left inside may never be seen again*.  What will your fate be?
 *just kidding, of course- after one hour all groups will be let out and taken back to our house. Need a ride? Call ZBT for rides at 617-232-3257.
 
-Title: Dinner at ZBT: Beef Kebabs
+Title: Dinner Beef Kebabs
 Time: Thursday, September 8, 5:30pm-7:00pm
 Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
 Description
