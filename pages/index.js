@@ -39,7 +39,7 @@ export default class Index extends React.Component {
             <hr/>
             <Row id="excellence" imageUrl={ExcellenceImg}>
               <h2>The Powerhouse of Excellence</h2>
-              <p>Fraternity is much more than a place to live or a social outlet for our brothers during their four years at MIT.</p>
+              <p>A fraternity is much more than a place to live or a social outlet for our brothers during their four years at MIT.</p>
               <p>We remain dedicated to our reasons for being here, earning consistently high GPAs, doing over 1000 hours of community service, and raising over $1500 for Children's Miracle Network.</p>
               <p><Link to={prefixLink("/history/")}>Read more on the history of Xi Chapter.</Link></p>
             </Row>
@@ -52,7 +52,7 @@ export default class Index extends React.Component {
             <Row id="party" imageUrl={PartyImg}>
               <h2>Come get to know us!</h2>
               <p>No matter if you go to MIT, Harvard, Wellesley or BU - we welcome new friends to our house.</p>
-              <p>Come to events hosted at our house during the school year. We host traditional dance parties open to everyone, as well as classy invite-only Karaoke and desserts evenings called Soiree, and semi-annual formals for brothers and their dates.</p>
+              <p>Come to events hosted at our house during the school year. We host traditional dance parties open to everyone, as well as classy invite-only Karaoke and desserts evenings called Soirees, and semi-annual formals for brothers and their dates.</p>
               <p><Link to={prefixLink("/events/")}>See the events page</Link> to learn about the upcoming parties, dinners and gatherings.</p>
             </Row>
         </div>
