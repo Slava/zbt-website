@@ -194,18 +194,6 @@ module.exports = [
   {
     "classname": "Beta Iota - Class of 2017",
     "classid": "BetaIota",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers/Shin%2C+Dong-gil.jpg",
-    "name": "Dong-gil Shin",
-    "major": "18 - Mathematics",
-    "minor": "",
-    "hometown": "Korea",
-    "big": "Kevin Li",
-    "littles": "",
-    "bio": "Hi, I'm Dong-Gil Shin, Beta Iota #6! I plan to major in math. It's great to be a part of ZBT!!"
-  },
-  {
-    "classname": "Beta Iota - Class of 2017",
-    "classid": "BetaIota",
     "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/gil.jpg",
     "name": "Gil Goldshlager",
     "major": "6-3 - Computer Science and Engineering, 18 - Mathematics",
