@@ -38,7 +38,9 @@ The 2016 Alumni Weekend is from October 21-23 at the ZBT house.
 </p>
 <p>
 The undergraduates host an alumni weekend every year, usually during the spring term. This has always been a great opportunity for alumni to connect with one another and current brothers. Look out for an email for the next alumni weekend or email zbt-president@mit.edu.
-
+</p>
+<p>
+Our long standing chef Karen recently retired and to say a big thank you to her, we invite alumni to contribute to her <a href="https://www.gofundme.com/karengift">parting gift</a>
 </p>
 <h2>Tech Reunion</h2>
 <p>ZBT hosts an open house every year during MIT's Tech Reunion. All alumni are welcomed and encouraged to stop by. You can email the trustees for more details.
