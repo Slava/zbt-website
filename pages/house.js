@@ -46,7 +46,7 @@ export default function (props) {
               <p>Email zbt-president@mit.edu to apply.</p>
               <p>Summer housing includes room and access to all common areas listed here, including a fully equipped industrial kitchen, laundry room, weight room, 40'' TV for watching movies or shows, newly furnished study space, and Athena cluster.</p>
               <p>We're minutes away from local parks and local commercial plazas including Coolidge Corner. We are also a 3-minute walk from a 24-hour supermarket and a 5-minute walk from the MBTA Green Line. There will be daily van runs to and from MIT's campus, as well as the MIT Saferide shuttle every hour after 6pm.</p>
-              <p>Rates are $1700/triple, $1850/double.</p>
+              <p>Rates are $1900/triple, $2100/double.</p>
             </Row>
         </div>
       </DocumentTitle>
