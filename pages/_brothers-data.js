@@ -548,7 +548,7 @@ module.exports = [
     "classid": "BetaLambda",
     "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/ramos.jpg",
     "name": "Alejandro Ramos - #8",
-    "bio": `I’m Alejandro José de la Concordia Garcia Ramirez Ramos. I’m from Texas but my [many and varied] lovers all mistake me for Brazilian. You may know me from my cameo appearance in the Scooby Doo live action film as the stoned waitress, or my work as lead makeup designer of White Chicks. My favorite musicians are Kidz Bop, Nickelback, and the soothing sounds of grunting whales. I only know how to make one face on snapchat.`
+    "bio": `[Redacted]`
   },
   {
     "classname": "Beta Lambda - Class of 2019",
