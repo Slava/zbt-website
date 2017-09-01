@@ -1,5 +1,5 @@
 #!/bin/bash
 # change this to your kerberos
-gatsby build
+yarn run gatsby build
 scp -r public/* slv@athena.dialup.mit.edu:/mit/zbt/web_scripts/
 
