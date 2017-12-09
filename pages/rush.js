@@ -160,11 +160,11 @@ Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
 Description:
 Come to ZBT for the Breakfast of Champions! Eggs, bacon, sausage, fresh fruit and muffins for days. Vegetarians welcome! Call us at 617-232-3257 for your ride.
 
-Title: Battle Canoeing on the Charles River
+Title: Dave & Buster's Arcade
 Time: Sunday, September 3, 12:00pm-4:30pm
 Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
 Description:
-This is SPARTA!! Actually, it’s just the Charles river. Wanna get soaked in the river just for the fun of it? Wanna throw some water balloons at people because why not?  Come to ZBT Battle Canoeing! We will be renting boats to go on the Charles. Life jackets will be available and your electronics will be taken care of. Free transportation! Call us at 617-232-3257 for rides.
+Ever had a childhood dream of going to the arcade for the whole day playing video games? Unleash your inner child at Dave and Buster's! Free transportation! Call us at 617-232-3257 for rides.
 
 Title: Dinner Taste of Italy
 Time: Sunday, September 3, 5:15pm-6:15pm
@@ -182,7 +182,6 @@ Time: Monday, September 4, 9:00am-10:00am
 Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
 Description:
 Come to ZBT for the Breakfast of Champions! Eggs, bacon, sausage, fresh fruit and muffins for days. Vegetarians welcome! Call us at 617-232-3257 for your ride.
-
 
 Title: Paintball
 Time: Monday, September 4, 1:00pm-4:30pm

@@ -628,5 +628,152 @@ module.exports = [
     "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/alexan.jpg",
     "name": "Alexandr Wang - #21",
     "bio": `I'm Alexandr T. Wang. Born and raised in New Mexico but in my past life I was a surfboard from California. I enjoy listening to country music and lifting my own body weight from a chair counts as exercise add me on snapchat for some good times after midnight.`
-  }
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/james.jpg",
+    "name": "James McGaa",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/ato.jpg",
+    "name": "Ato Kwapong",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/andrew.jpg",
+    "name": "Andrew Chen",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/hans.jpg",
+    "name": "Hans Li",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/tc.jpg",
+    "name": "TC Qin",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/darnell.jpg",
+    "name": "Darnell Granberry",
+    "bio": ``
+ },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/berny.jpg",
+    "name": "Bernardo Hernandez",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/victor.jpg",
+    "name": "Victor Cheng",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/allencheng.jpg",
+    "name": "Allen Cheng",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/tony.jpg",
+    "name": "Tony Ding",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/allen.jpg",
+    "name": "Allen Lee",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/srijith.jpg",
+    "name": "Srijith Poduval",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/unknown.jpg",
+    "name": "Rishi Sundaresan",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/tarun.jpg",
+    "name": "Tarun Kamath",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/speck.jpg",
+    "name": "Steven Speck",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/lesian.jpg",
+    "name": "Lesian Lengare",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/jack.jpg",
+    "name": "Jack Liu",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/jason.jpg",
+    "name": "Jason Seibel",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/eshaan.jpg",
+    "name": "Eshaan Nichani",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/michael.jpg",
+    "name": "Michael Kural",
+    "bio": ``
+  },
+  {
+    "classname": "Beta Mu - Class of 2020",
+    "classid": "BetaMu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/deep.jpg",
+    "name": "Deep Gupta",
+    "bio": ``
+  },
 ]

@@ -64,6 +64,9 @@ export default function (props) {
             <Tabs.Panel title="βλ">
               <ClassGallery classid="BetaLambda" onSelect={onSelect}/>
             </Tabs.Panel>
+            <Tabs.Panel title="βμ">
+              <ClassGallery classid="BetaMu" onSelect={onSelect}/>
+            </Tabs.Panel>
           </Tabs>
           <BrotherPane ref={(ref) => _brother = ref} cb={(f) => openBrotherFn = f}/>
         </div>
@@ -83,7 +86,7 @@ class ClassesTabs extends React.Component {
       return `&Beta;&${name};`;
     };
 
-    const classes = ['BetaTheta', 'BetaIota', 'BetaKappa', 'BetaLambda'];
+    const classes = ['BetaTheta', 'BetaIota', 'BetaKappa', 'BetaLambda', 'BetaMu'];
     const { current } = this.state;
     return (
         <div className="classes-tabs">
