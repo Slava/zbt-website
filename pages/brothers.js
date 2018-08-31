@@ -51,7 +51,7 @@ export default function (props) {
             <ImgGallery images={brothersPhotos} useLightbox />
           </div>
           <hr/>
-          <Tabs>
+        <Tabs tabActive={5}>
             <Tabs.Panel title="βθ">
               <ClassGallery classid="BetaTheta" onSelect={onSelect}/>
             </Tabs.Panel>

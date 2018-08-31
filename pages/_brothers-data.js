@@ -494,7 +494,7 @@ module.exports = [
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/henry.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/henry.jpg",
     "name": "Henry La Soya - #1",
     "bio": `Hello, I’m Henry La Soya!
     I was born and lived my whole life in the cesspool of Los Angeles, California. I am the freshmen
@@ -504,49 +504,49 @@ module.exports = [
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/haris.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/haris.jpg",
     "name": "Haris Brkic - #2",
     "bio": `Hi, my name is Haris and I was born in Bosnia on the Balkan Peninsula. I plan on majoring in course 6-2, Electrical Engineering and Computer Science. I speak multiple languages including Russian and Turkish. I also love to play the guitar - it’s been rumored that the rhythm of my guitar strings can make hot girls appear from thin air.`
   },
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/rodmy.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/rodmy.jpg",
     "name": "Rodmy Paredes - #3",
     "bio": `My name is Rodmy. I’m Peruvian.  I like long walks on the beach. Especially Sandy [the name of his current girlfriend] ones. I like juice boxes and I move a lot. I'm planning on majoring in both 8 and 18C.`
   },
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/scott.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/scott.jpg",
     "name": "Scott Cameron - #4",
     "bio": `What can I say about this dashing young man (who is available, should any lady come across this)? As a young man who grew up on the dusty roads of Columbus, Ohio, he dreamed of being a Zebe. Scott was a star in high school, a hockey, track, cycling, hiking, reading, bungee-jumping, beer-demolishing star to be specific. The man who ZBT today calls one of its own shows many interesting qualities. As a side note, Scott is currently following in the footsteps of plenty other Zebes and planning on being Course 6 at MIT.`
   },
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/sandeep.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/sandeep.jpg",
     "name": "Sandeep Silwal - #5",
     "bio": `Hey, I'm Sandeep. I was born in Nepal and spent a lot of my life there. My passion is for math in general, especially for prime numbers. In my free time, when I'm not doing math, I like to explore Boston. I love to learn new things and talk to interesting people. I hope to use math to tackle hard, real-world problems in the future.`
   },
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/bahner.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/bahner.jpg",
     "name": "Matt Bahner - #6",
     "bio": `My name is Matt Bahner and I am from THE Doylestown, PA. I solve mad rubik’s faster than you can spell boner [not to be confused with Boehner]. In fact, I like rubik’s cubes so much that I made one of my own- the largest rubik’s cube in the world. Among other interests, I like to juggle and ride unicycles. Although I am still undecided regarding my major, I am sure that what I learned during my time with the eagle scouts will get me through life.`
   },
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/luis.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/luis.jpg",
     "name": "Luis Sandoval - #7",
     "bio": `Hola, I am Luis Sandoval. I was born in Seattle, but spent most of my life in Westerville, a suburb of the great city of Columbus, Ohio. I am a tennis star, a sailing aficionado, and a lover of video games. I plan to major in chemical engineering. While in high school I was the president of my school's key club. However, I never found the key and my search continues to this day.`
   },
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/ramos.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/ramos.jpg",
     "name": "Alejandro Ramos - #8",
     "bio": `[Redacted]`
   },
@@ -560,7 +560,7 @@ module.exports = [
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/robby.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/robby.jpg",
     "name": "Robert Arnott - #11",
     "bio": `Hello, I am Robert Luis Arnott!
     I was born in Boston, Massachusetts but I grew up in Weston, Florida. I love playing video games, especially the legendary game Super Smash Bros, soccer, and hanging out with all of my ZBT brothers. My love for physics and my curiosity for computer science has led me to pursue my passion at MIT through course 6 and 8. My favorite drink is water although with the sudden change of climate from Florida to Massachusetts [has meant that my beloved water is now ice] for a good portion of the year, bummer. Even as the weather gets colder I now I find warmth and love from all my brother at ZBT.  [As we said when I was but a young freshman, “There’s no such thing as too much brotherhood!”]`
@@ -568,7 +568,7 @@ module.exports = [
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/slava.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/slava.jpg",
     "name": "Slava Kim - #12",
     "bio": `Hello!
     My name is Slava and I am originally from Kazakhstan. My family moved to the US in 2012 and before coming to MIT, I worked in the tech industry. I am interested in the interplay of economics, linguistics, and history and my favorite idea is how people can communicate in society without explicitly knowing each other. I hope to change the world and make my family and little brother proud!`
@@ -576,49 +576,42 @@ module.exports = [
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/alap.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/alap.jpg",
     "name": "Alap Sahoo - #13",
     "bio": `[original bio removed due to its inappropriate content] "I am a fucking idiot" - Alap.`
     },
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/david.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/david.jpg",
     "name": "David Wang - #14",
     "bio": `David Wang is a freshman at MIT originating from Cupertino, CA. He is unsure what he wants to pursue in life but is intent on not majoring in CS because it is too mainstream for him. Course 3, 5 and 10 are potential options. David enjoys running along rivers. David makes music with his mouth`
   },
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/nick.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/nick.jpg",
     "name": "Nick Wu - #15",
     "bio": `Hey everyone, my name is Nick Wu. I grew up in the capital of cream-cheese, Philly. Although my passion lies in CS and Math, I like playing frisbee, piano or FIFA in my free time. Besides that, I also dance with ADT and sing with Syncopasian at MIT. As for my future, I am dreaming of starting my own tech startup and becoming famous just like that philosophy major guy from Harvard`
   },
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/rick.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/rick.jpg",
     "name": "Rick Huang - #17",
     "bio": `Rick is a freshman interested in studying computer science. He's from Bay Area, California the most unoriginal place in the world. In his free time, he wastes it all on League of Legends instead of learning how to dance for ADT, lifting, or making friends.`
   },
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/kobbie.jpg",
-    "name": "Kwabena (Kobbie) Ofori-Atta - #18",
-    "bio": `Kwabena Ofori-Atta is an amazing guy. He comes from Fairfax, Virginia. He loves drawing and he’s hosted his own cooking show since 2010. When he sings and plays the guitar, women rush to listen to him from all over campus and Boston. Currently he anticipates studying either course 20 or 6-7`
-  },
-  {
-    "classname": "Beta Lambda - Class of 2019",
-    "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/unknown.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/tyler.jpg",
     "name": "Tyler Barr - #19",
     "bio": `My name is Tyler Barr, and I am straight savage at tennis. I enjoy kicking Henry’s [posterior] on a repeated basis, and I don’t even let Jaffe walk on the court. I hail from the town of Cleveland, Ohio, where we all breathe, eat, and dream football even though we suck. I enjoy crushing it at Fanduel and casually make millions alongside my college education. Besides being a sad Cleveland Browns fan, I also am a true bandwagon who follows the Cavs`
   },
   {
     "classname": "Beta Lambda - Class of 2019",
     "classid": "BetaLambda",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/justin.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/justin.jpg",
     "name": "Justin Yu - #20",
     "bio": `Hello! I'm Justin Yu. I'm from New Jersey and am interested in some mix of course 6 and 7. In my spare time, I enjoy biking, cooking, and spending time with friends`
   },
@@ -716,7 +709,7 @@ module.exports = [
   {
     "classname": "Beta Mu - Class of 2020",
     "classid": "BetaMu",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2016/unknown.jpg",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/rishi.jpg",
     "name": "Rishi Sundaresan",
     "bio": ``
   },
