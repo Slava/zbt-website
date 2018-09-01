@@ -47,7 +47,6 @@ function WithBoringTextOnSide ({children}) {
       <div className="flex rush">
         <div className="flex-cell">
           <p className="important">Call ZBT for rides at <a href="tel:6172323257">617-232-3257</a> to get to any Rush event.</p>
-          <p className="extra">This fall we will be opening our house to visitors, come join us for Rush activities! Discover ZBT's culture, chat to brothers, become part of this excellent community. </p>
           <p className="extra">We have all sorts of activities and mountains of <b>free food</b> available for Rush, giving the freshmen the chance to really get to know us and have a fun time doing so.</p>
         </div>
         <div className="flex-cell-bigger schedule">{children}</div>
