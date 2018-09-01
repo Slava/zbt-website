@@ -133,13 +133,13 @@ function parseText() {
 }
 
 const text = `Title: ZBT BBQ and Grill
-Time: Saturday, September 1st, 12:30pm - 3:00pm
+Time: Saturday, September 1, 12:30pm - 3:00pm
 Location: Kresge BBQ Pits
 Description:
 Come grill & chill with ZBT at the Kresge BBQ pits. There’ll be burgers, hot dogs, snacks, and vegetarian options available. Enjoy the great food, music, and company, or play some sports on the lawn!
 
 Title: Dinner with ZBT: Southern BBQ
-Time: Saturday, September 1st, 6:00pm - 8:00pm
+Time: Saturday, September 1, 6:00pm - 8:00pm
 Location: Burton Conner Porter Room
 Description:
 Dinner with ZBT! Come hang out with brothers and friends. Vegetarian options will be available as well!
@@ -147,7 +147,8 @@ Dinner with ZBT! Come hang out with brothers and friends. Vegetarian options wil
 Title: Night in the City
 Time: Saturday, September 1, 8:00 pm - 12:00 am
 Location:  Burton Conner Porter Room
-Description: Try your luck with the brothers of ZBT playing some of the most popular games enjoyed on a Saturday night out in the city!
+Description:
+Try your luck with the brothers of ZBT playing some of the most popular games enjoyed on a Saturday night out in the city!
 
 Title: ZBT Breakfast of Champions
 Time: Sunday, September 2, 9:00am - 12:00 pm
@@ -170,7 +171,8 @@ His palms are sweaty, knees weak, arms are heavy...mom's spaghetti; He's nervous
 Title: Laser Tag
 Time: Sunday, September 2, 6:15pm - 9:00pm
 Location: Meet at Walker Memorial.
-Description: Come battle for victory with laser tag! We will meet at Walker and go to Xtreme Craze for a fun, competitive time. Call us at 617-232-3257 for rides.
+Description:
+Come battle for victory with laser tag! We will meet at Walker and go to Xtreme Craze for a fun, competitive time. Call us at 617-232-3257 for rides.
 
 Title: ZBT Breakfast of Champions
 Time: Monday, September 3, 9:00am - 12:00 pm
@@ -220,19 +222,19 @@ Description
 Call ZBT for rides at 617-232-3257.
 
 Title: Skyzone
-Time: Wednesday, September 5th, 7:30pm - 10:00pm
+Time: Wednesday, September 5, 7:30pm - 10:00pm
 Location: Meet at Walker
 Description
 Massive wall-to-wall trampolines, cushy foam pits, the ultimate in dodgeball. And of course, a basketball hoop to dunk. Come to Skyzone with ZBT! Call 617-232-3257 for your ride.
 
 Title: Dinner with ZBT: Cheesecake Factory
-Time: Thursday, September 6th, 5:30pm - 7:00pm
+Time: Thursday, September 6, 5:30pm - 7:00pm
 Location: Meet at Stud steps (we have stud steps reserved starting at 4)
 Description
 Call ZBT for rides at 617-232-3257.
 
 Title: Minigolf
-Time: Thursday, September 6th, 7:00pm - 10:00pm
+Time: Thursday, September 6, 7:00pm - 10:00pm
 Location: Meet at stud steps
 Description
 Ever wanted to putt like Tiger? Come play minigolf with the brothers of ZBT. For rides, call us at 617-232-3257!
