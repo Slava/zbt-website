@@ -111,8 +111,8 @@ class DetailsPane extends React.Component {
     this.props.cb(() => this.refs.deetsPopup.show());
     return (
           <SkyLight hideOnOverlayClicked ref="deetsPopup" title={this.state.title}>
-            <h3>{this.state.time} - {this.state.day}</h3>
-            <h3>{this.state.location}</h3>
+            <h3>Time: {this.state.time} - {this.state.day}</h3>
+            <h3>Location: {this.state.location}</h3>
             <p>{this.state.desc}</p>
           </SkyLight>
     );
@@ -134,120 +134,106 @@ function parseText() {
 
 const text = `Title: ZBT BBQ and Grill
 Time: Saturday, September 1st, 12:30pm - 3:00pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
+Location: Kresge BBQ Pits
 Description:
 Come grill & chill with ZBT at the Kresge BBQ pits. There’ll be burgers, hot dogs, snacks, and vegetarian options available. Enjoy the great food, music, and company, or play some sports on the lawn!
 
-Title: Ice Cream Sundae Bar and Games
-Time: Saturday, September 1st, 3:00 pm - 6:00 pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
-Description:
-Come to ZBT for ice cream and chocolate sauce, chips and dips and grapes and a good time. Hang out and play video games, board games, foosball, and ping pong. Call ZBT for rides at 617-232-3257.
-
-Title: Lobsterfest!
+Title: Dinner with ZBT: Southern BBQ
 Time: Saturday, September 1st, 6:00pm - 8:00pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
+Location: Burton Conner Porter Room
 Description:
-Endless lobster, all you can eat. Not a fan of lobster? We'll have chicken and vegetarian options available. For rides, call us at 617-232-3257!
+Dinner with ZBT! Come hang out with brothers and friends. Vegetarian options will be available as well!
 
-Title: Casino Night
+Title: Night in the City
 Time: Saturday, September 1, 8:00 pm - 12:00 am
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
-Description:
-Feeling lucky? Think you can outsmart our dealers? Come to ZBT for Casino night! We will have poker, blackjack, and other casino games. There'll be loads of prizes, with a grand prize of a 40-inch TV! Call us at 617-232-3257 for a ride.
+Location:  Burton Conner Porter Room
+Description: Try your luck with the brothers of ZBT playing some of the most popular games enjoyed on a Saturday night out in the city!
 
 Title: ZBT Breakfast of Champions
 Time: Sunday, September 2, 9:00am - 12:00 pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
+Location: MIT Student Center
 Description:
-Come to ZBT for the Breakfast of Champions! Eggs, bacon, sausage, fresh fruit and muffins for days. Vegetarians welcome! Call us at 617-232-3257 for your ride.
+Come to the stud for ZBT’s Breakfast of Champions! Eggs, bacon, sausage, fresh fruit and muffins for days. Vegetarians welcome! Call us at 617-232-3257.
 
 Title: Battle Canoeing on the Charles River
 Time: Sunday, September 2, 12:00pm - 4:30 pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
+Location: Meet at Student Center Steps
 Description:
 This is SPARTA!! Actually, it’s just the Charles river. Wanna get soaked in the river just for the fun of it? Wanna throw some water balloons at people because why not? Come to ZBT Battle Canoeing! We will be renting boats to go on the Charles. Life jackets will be available and your electronics will be taken care of. Call us at 617-232-3257 for rides.
 
-Title: Dinner at ZBT, Taste of Italy
+Title: Dinner with ZBT: Taste of Italy
 Time: Sunday, September 2, 5:00pm - 6:15pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
+Location: MIT Walker Memorial
 Description:
-His palms are sweaty, knees weak, arms are heavy...mom's spaghetti; He's nervous, but on the surface he looks calm and ready; To go to ZBT for Taste of Italy! We will have our own ITALIAN (first order approximation) chef cook spaghetti and meatballs, chicken parmesan, desserts, and other snacks. Vegetarians welcome! We will also have games such as pinball, foosball, etc! Call us at 617-232-3257 for rides.
+His palms are sweaty, knees weak, arms are heavy...mom's spaghetti; He's nervous, but on the surface he looks calm and ready; To go to ZBT for Taste of Italy! We will have our own ITALIAN (first order approximation) chef cook spaghetti and meatballs, chicken parmesan, desserts, and other snacks. Vegetarians welcome! We will also have games such as pinball, foosball, etc! Call us at 617-232-3257.
 
 Title: Laser Tag
 Time: Sunday, September 2, 6:15pm - 9:00pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
-Description:
-Come battle for victory with laser tag! We will meet at ZBT and go to Xtreme Craze for a fun, competitive time. Call us at 617-232-3257 for rides.
+Location: Meet at Walker Memorial.
+Description: Come battle for victory with laser tag! We will meet at Walker and go to Xtreme Craze for a fun, competitive time. Call us at 617-232-3257 for rides.
 
 Title: ZBT Breakfast of Champions
 Time: Monday, September 3, 9:00am - 12:00 pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
+Location: MIT Student Center
 Description:
-Come to ZBT for the Breakfast of Champions! Eggs, bacon, sausage, fresh fruit and muffins for days. Vegetarians welcome! Call us at 617-232-3257 for your ride.
+Come to the Stud for ZBT’s Breakfast of Champions! Eggs, bacon, sausage, fresh fruit and muffins for days. Vegetarians welcome! Call us at 617-232-3257.
 
 Title: Paintball
 Time: Monday, September 3, 12:30 pm - 4:30 pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
+Location: Meet at Student Center Steps
 Description
-Splatter your opponents with paint on the battlefield. Join our ranks to show your strength in glorious battle. Provisions will be provided, thanks to our chef, with vegetarian options available. Extra t-shirts will be available, but it is recommended to bring clothes you don’t mind getting dirty. Meet at ZBT to start your journey. Call us at 617-232-3257 for your ride!
+Splatter your opponents with paint on the battlefield. Join our ranks to show your strength in glorious battle. Provisions will be provided, thanks to our chef, with vegetarian options available. Extra t-shirts will be available, but it is recommended to bring clothes you don’t mind getting dirty. Meet at the Student Center to start your journey. Call us at 617-232-3257 for your ride!
 
-Title: Dinner at ZBT: Teriyaki Salmon
+Title: Dinner with ZBT: Steak Night
 Time: Monday, September 3, 6:00 pm - 8 pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
+Location: Stata Forbes Cafe
 Description
-Come enjoy some delicious teriyaki salmon! Vegetarian options will also be available. Call us at 617-232-3257 for a ride!
+Steak dinner with ZBT. Come hang out with brothers and friends. Vegetarian options will be available as well!
 
 Title: Bowling
 Time: Monday, September 3, 8:00 pm - 11:00 pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
+Location: Meet at Stata Forbes Cafe
 Description
-Have some spare time? Come bowl with the brothers of ZBT! Whether you strike it lucky or end up in the gutter, it’ll be a great time! Need a ride? Call us at 617-232-3257!
+Have some spare time? Come bowl with the brothers of ZBT! Whether you strike it lucky or end up in the gutter, it’ll be a great time! Need a ride? Meet at Stata Cafe, or call us at 617-232-3257!
 
 Title: Late night run to IHOP
 Time: Monday, September 3, 11:00 pm - 12:00am
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
-Description Up late? Hungry from bowling? Join ZBT in eating America’s best pancakes at a late-night run to IHOP. Bring your appetites because this meal is on us! We will be providing transportation from the house to IHOP and from bowling directly to IHOP as well. Call 617-232-3257 for a ride.
+Location: Meet at Stata Forbes Cafe
+Description Up late? Hungry from bowling? Join ZBT in eating America’s best pancakes at a late-night run to IHOP. Bring your appetites because this meal is on us! We will be providing transportation from Stata to IHOP and from bowling directly to IHOP as well. Call 617-232-3257 for a ride.
 
-Title: ZBT Breakfast of Champions
-Time: Tuesday, September 4, 9:00am - 12:00pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
-Description
-Come to ZBT for the Breakfast of Champions! Eggs, bacon, sausage, fresh fruit and muffins for days. Vegetarians welcome! Call us at 617-232-3257 for your ride.
-
-Title: Dinner at ZBT: Steak Night
+Title: Dinner with ZBT: Champions
 Time: Tuesday, September 4, 5:30pm-7:30pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
+Location: Meet at Kresge BBQ (we have Kresge BBQ reserved starting at 4)
 Description
-Steak dinner at ZBT. Come hang out with brothers and friends. Vegetarian options will be available as well! Call ZBT for rides at 617-232-3257.
+Call ZBT for rides at 617-232-3257.
 
 Title: Escape the Room
 Time: Tuesday, September 4, 7:30pm - 10:00pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
+Location: Meet at Kresge BBQ
 Description
-Using only your wits and your friends, can you break free in under an hour? We’ll meet at ZBT and then head out to Escape the Room Boston. Those who make it out will be driven back to ZBT afterwards; those left inside may never be seen again. What will your fate be? Call ZBT for rides at 617-232-3257.
+Using only your wits and your friends, can you break free in under an hour? We’ll meet at on campus and then head out to Escape the Room Boston. Those who make it out will be driven back to MIT; those left inside may never be seen again. What will your fate be? Call ZBT for rides at 617-232-3257.
 
-Title: Dinner at ZBT: Jambalaya
+Title: Dinner with ZBT: Chinatown
 Time: Wednesday, September 5, 5:30pm - 7:30pm
-Safety plan: none
+Location: Meet at Walker (we have walker lawn reserved starting at 4)
 Description
-Jambalaya dinner at ZBT! Vegetarian options available. Call ZBT for rides at 617-232-3257.
+Call ZBT for rides at 617-232-3257.
 
 Title: Skyzone
 Time: Wednesday, September 5th, 7:30pm - 10:00pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
+Location: Meet at Walker
 Description
 Massive wall-to-wall trampolines, cushy foam pits, the ultimate in dodgeball. And of course, a basketball hoop to dunk. Come to Skyzone with ZBT! Call 617-232-3257 for your ride.
 
-Title: Dinner at ZBT: Roasted Beef Tips
+Title: Dinner with ZBT: Cheesecake Factory
 Time: Thursday, September 6th, 5:30pm - 7:00pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
+Location: Meet at Stud steps (we have stud steps reserved starting at 4)
 Description
-Enjoy some sirloin tip roast at ZBT! Vegetarian options also available. Call ZBT for rides at 617-232-3257.
+Call ZBT for rides at 617-232-3257.
 
 Title: Minigolf
 Time: Thursday, September 6th, 7:00pm - 10:00pm
-Location: Zeta Beta Tau: 58 Manchester Road, Brookline MA 02446
+Location: Meet at stud steps
 Description
 Ever wanted to putt like Tiger? Come play minigolf with the brothers of ZBT. For rides, call us at 617-232-3257!
 `;
