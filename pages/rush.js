@@ -96,6 +96,7 @@ function Schedule() {
           {tableRows}
           </tbody>
         </table>
+        <div className="note">Events marked with asterisk(*) are invite-only</div>
       </div>
   );
 }
@@ -214,25 +215,25 @@ Location: Meet at Kresge BBQ
 Description
 Using only your wits and your friends, can you break free in under an hour? We’ll meet at on campus and then head out to Escape the Room Boston. Those who make it out will be driven back to MIT; those left inside may never be seen again. What will your fate be? Call ZBT for rides at 617-232-3257.
 
-Title: Dinner with ZBT: Chinatown
+Title: Dinner with ZBT: Chinatown*
 Time: Wednesday, September 5, 5:30pm - 7:30pm
 Location: Meet at Walker (we have walker lawn reserved starting at 4)
 Description
 Call ZBT for rides at 617-232-3257.
 
-Title: Skyzone
+Title: Skyzone*
 Time: Wednesday, September 5, 7:30pm - 10:00pm
 Location: Meet at Walker
 Description
 Massive wall-to-wall trampolines, cushy foam pits, the ultimate in dodgeball. And of course, a basketball hoop to dunk. Come to Skyzone with ZBT! Call 617-232-3257 for your ride.
 
-Title: Dinner with ZBT: Cheesecake Factory
+Title: Dinner with ZBT: Cheesecake Factory*
 Time: Thursday, September 6, 5:30pm - 7:00pm
 Location: Meet at Stud steps (we have stud steps reserved starting at 4)
 Description
 Call ZBT for rides at 617-232-3257.
 
-Title: Minigolf
+Title: Minigolf*
 Time: Thursday, September 6, 7:00pm - 10:00pm
 Location: Meet at stud steps
 Description
