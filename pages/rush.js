@@ -28,7 +28,7 @@ export default function ({}) {
         <div>
           <Splash id="rush" imageUrl={CoverImg}></Splash>
           <div className="contents typography">
-            <h1>Rush ZBT this fall! (2018)</h1>
+            <h1>Rush ZBT this fall! (2019)</h1>
             <WithBoringTextOnSide>
               <Schedule/>
             </WithBoringTextOnSide>
@@ -46,7 +46,7 @@ function WithBoringTextOnSide ({children}) {
   return (
       <div className="flex rush">
         <div className="flex-cell">
-          <p className="important">Call ZBT for rides at <a href="tel:6172323257">617-232-3257</a> to get to any Rush event.</p>
+          <p className="important">Call ZBT for rides at <a href="tel:6172323257">617-404-9663</a> to get to any Rush event.</p>
           <p className="extra">We have all sorts of activities and mountains of <b>free food</b> available for Rush, giving the freshmen the chance to really get to know us and have a fun time doing so.</p>
         </div>
         <div className="flex-cell-bigger schedule">{children}</div>
@@ -133,109 +133,121 @@ function parseText() {
 }
 
 const text = `Title: ZBT BBQ and Grill
-Time: Saturday, September 1, 12:30pm - 3:00pm
+Time: Saturday, August 31, 12:00pm - 3:00pm
 Location: Kresge BBQ Pits
 Description:
 Come grill & chill with ZBT at the Kresge BBQ pits. There’ll be burgers, hot dogs, snacks, and vegetarian options available. Enjoy the great food, music, and company, or play some sports on the lawn!
 
-Title: Dinner with ZBT: Southern BBQ
-Time: Saturday, September 1, 6:00pm - 8:00pm
+Title: Ice Cream Bar and Games	
+Time: Saturday, August 31, 3:00pm - 6:00pm
+Location: ZBT House
+Description:
+Grab some ice cream on a hot summer day!
+
+Title: Dinner with ZBT: Dinner in the City
+Time: Saturday, August 31, 6:00pm - 8:00pm
 Location: Burton Conner Porter Room
 Description:
 Dinner with ZBT! Come hang out with brothers and friends. Vegetarian options will be available as well!
 
 Title: Night in the City
-Time: Saturday, September 1, 8:00 pm - 12:00 am
+Time: Saturday, August 31, 8:00 pm - 12:00 am
 Location:  Burton Conner Porter Room
 Description:
 Try your luck with the brothers of ZBT playing some of the most popular games enjoyed on a Saturday night out in the city!
 
 Title: ZBT Breakfast of Champions
-Time: Sunday, September 2, 9:00am - 12:00 pm
+Time: Sunday, September 1, 9:00am - 11:00am
 Location: MIT Student Center
 Description:
-Come to the stud for ZBT’s Breakfast of Champions! Eggs, bacon, sausage, fresh fruit and muffins for days. Vegetarians welcome! Call us at 617-232-3257.
+Come to the stud for ZBT’s Breakfast of Champions! Eggs, bacon, sausage, fresh fruit and muffins for days. Vegetarians welcome! Call us at 617-404-9663.
 
 Title: Battle Canoeing on the Charles River
-Time: Sunday, September 2, 12:00pm - 4:30 pm
+Time: Sunday, September 1, 11:00am - 4:00pm
 Location: Meet at Student Center Steps
 Description:
-This is SPARTA!! Actually, it’s just the Charles river. Wanna get soaked in the river just for the fun of it? Wanna throw some water balloons at people because why not? Come to ZBT Battle Canoeing! We will be renting boats to go on the Charles. Life jackets will be available and your electronics will be taken care of. Call us at 617-232-3257 for rides.
+This is SPARTA!! Actually, it’s just the Charles river. Wanna get soaked in the river just for the fun of it? Wanna throw some water balloons at people because why not? Come to ZBT Battle Canoeing! We will be renting boats to go on the Charles. Life jackets will be available and your electronics will be taken care of. Call us at 617-404-9663 for rides.
 
 Title: Dinner with ZBT: Taste of Italy
-Time: Sunday, September 2, 5:00pm - 6:15pm
-Location: MIT Walker Memorial
+Time: Sunday, September 1, 5:00pm - 6:00pm
+Location: ZBT House
 Description:
-His palms are sweaty, knees weak, arms are heavy...mom's spaghetti; He's nervous, but on the surface he looks calm and ready; To go to ZBT for Taste of Italy! We will have our own ITALIAN (first order approximation) chef cook spaghetti and meatballs, chicken parmesan, desserts, and other snacks. Vegetarians welcome! We will also have games such as pinball, foosball, etc! Call us at 617-232-3257.
+His palms are sweaty, knees weak, arms are heavy...mom's spaghetti; He's nervous, but on the surface he looks calm and ready; To go to ZBT for Taste of Italy! We will have our own ITALIAN (first order approximation) chef cook spaghetti and meatballs, chicken parmesan, desserts, and other snacks. Vegetarians welcome! We will also have games such as pinball, foosball, etc! Call us at 617-404-9663.
 
 Title: Laser Tag
-Time: Sunday, September 2, 6:15pm - 9:00pm
-Location: Meet at Walker Memorial.
+Time: Sunday, September 1, 6:00pm - 8:00pm
+Location: Meet at ZBT House
 Description:
-Come battle for victory with laser tag! We will meet at Walker and go to Xtreme Craze for a fun, competitive time. Call us at 617-232-3257 for rides.
+Come battle for victory with laser tag! We will meet at Walker and go to Xtreme Craze for a fun, competitive time. Call us at 617-404-9663 for rides.
 
 Title: ZBT Breakfast of Champions
-Time: Monday, September 3, 9:00am - 12:00 pm
+Time: Monday, September 2, 9:00am - 11:00am
 Location: MIT Student Center
 Description:
-Come to the Stud for ZBT’s Breakfast of Champions! Eggs, bacon, sausage, fresh fruit and muffins for days. Vegetarians welcome! Call us at 617-232-3257.
+Come to the Stud for ZBT’s Breakfast of Champions! Eggs, bacon, sausage, fresh fruit and muffins for days. Vegetarians welcome! Call us at 617-404-9663.
 
 Title: Paintball
-Time: Monday, September 3, 12:30 pm - 4:30 pm
+Time: Monday, September 2, 12:30 pm - 4:30 pm
 Location: Meet at Student Center Steps
 Description
-Splatter your opponents with paint on the battlefield. Join our ranks to show your strength in glorious battle. Provisions will be provided, thanks to our chef, with vegetarian options available. Extra t-shirts will be available, but it is recommended to bring clothes you don’t mind getting dirty. Meet at the Student Center to start your journey. Call us at 617-232-3257 for your ride!
+Splatter your opponents with paint on the battlefield. Join our ranks to show your strength in glorious battle. Provisions will be provided, thanks to our chef, with vegetarian options available. Extra t-shirts will be available, but it is recommended to bring clothes you don’t mind getting dirty. Meet at the Student Center to start your journey. Call us at 617-404-9663 for your ride!
 
-Title: Dinner with ZBT: Steak Night
-Time: Monday, September 3, 6:00 pm - 8 pm
-Location: Stata Forbes Cafe
+Title: Dinner at ZBT: Teriyaki Salmon	
+Time: Monday, September 2, 6:00 pm - 8 pm
+Location: ZBT House
 Description
-Steak dinner with ZBT. Come hang out with brothers and friends. Vegetarian options will be available as well!
+Salmon dinner with ZBT. Come hang out with brothers and friends. Vegetarian options will be available as well!
 
 Title: Bowling
-Time: Monday, September 3, 8:00 pm - 11:00 pm
-Location: Meet at Stata Forbes Cafe
+Time: Monday, September 2, 8:00 pm - 11:00 pm
+Location: Meet at ZBT House
 Description
-Have some spare time? Come bowl with the brothers of ZBT! Whether you strike it lucky or end up in the gutter, it’ll be a great time! Need a ride? Meet at Stata Cafe, or call us at 617-232-3257!
+Have some spare time? Come bowl with the brothers of ZBT! Whether you strike it lucky or end up in the gutter, it’ll be a great time! Need a ride? Meet at Stata Cafe, or call us at 617-404-9663!
 
 Title: Late night run to IHOP
-Time: Monday, September 3, 11:00 pm - 12:00am
-Location: Meet at Stata Forbes Cafe
-Description Up late? Hungry from bowling? Join ZBT in eating America’s best pancakes at a late-night run to IHOP. Bring your appetites because this meal is on us! We will be providing transportation from Stata to IHOP and from bowling directly to IHOP as well. Call 617-232-3257 for a ride.
+Time: Monday, September 2, 11:00 pm - 12:00am
+Location: Meet at stud steps
+Description Up late? Hungry from bowling? Join ZBT in eating America’s best pancakes at a late-night run to IHOP. Bring your appetites because this meal is on us! We will be providing transportation from Stata to IHOP and from bowling directly to IHOP as well. Call 617-404-9663 for a ride.
 
-Title: Dinner with ZBT: Champions
-Time: Tuesday, September 4, 5:30pm-7:30pm
-Location: Meet at Kresge BBQ (we have Kresge BBQ reserved starting at 4)
+Title: ZBT Breakfast of Champions
+Time: Tuesday, September 3, 9:00am - 11:00am
+Location: MIT Student Center
+Description:
+Come to the Stud for ZBT’s Breakfast of Champions! Eggs, bacon, sausage, fresh fruit and muffins for days. Vegetarians welcome! Call us at 617-404-9663.
+
+Title: Dinner with ZBT: Steak Dinner
+Time: Tuesday, September 3, 5:00pm-7:00pm
+Location: Meet at ZBT
 Description
-Call ZBT for rides at 617-232-3257.
+Call ZBT for rides at 617-404-9663.
 
-Title: Escape the Room
-Time: Tuesday, September 4, 7:30pm - 10:00pm
-Location: Meet at Kresge BBQ
-Description
-Using only your wits and your friends, can you break free in under an hour? We’ll meet at on campus and then head out to Escape the Room Boston. Those who make it out will be driven back to MIT; those left inside may never be seen again. What will your fate be? Call ZBT for rides at 617-232-3257.
-
-Title: Dinner with ZBT: Chinatown*
-Time: Wednesday, September 5, 5:30pm - 7:30pm
-Location: Meet at Walker (we have walker lawn reserved starting at 4)
-Description
-Call ZBT for rides at 617-232-3257.
-
-Title: Skyzone*
-Time: Wednesday, September 5, 7:30pm - 10:00pm
-Location: Meet at Walker
-Description
-Massive wall-to-wall trampolines, cushy foam pits, the ultimate in dodgeball. And of course, a basketball hoop to dunk. Come to Skyzone with ZBT! Call 617-232-3257 for your ride.
-
-Title: Dinner with ZBT: Cheesecake Factory*
-Time: Thursday, September 6, 5:30pm - 7:00pm
-Location: Meet at Stud steps (we have stud steps reserved starting at 4)
-Description
-Call ZBT for rides at 617-232-3257.
-
-Title: Minigolf*
-Time: Thursday, September 6, 7:00pm - 10:00pm
+Title: Skyzone
+Time: Tuesday, September 3, 7:00pm - 10:00pm
 Location: Meet at stud steps
 Description
-Ever wanted to putt like Tiger? Come play minigolf with the brothers of ZBT. For rides, call us at 617-232-3257!
+Massive wall-to-wall trampolines, cushy foam pits, the ultimate in dodgeball. And of course, a basketball hoop to dunk. Come to Skyzone with ZBT! Call 617-404-9663 for your ride.
+
+Title: Dinner with ZBT: Jamalya*
+Time: Wednesday, September 4, 5:00pm - 7:00pm
+Location: ZBT House
+Description
+Call ZBT for rides at 617-404-9663.
+
+Title: Escape the Room*
+Time: Wednesday, September 4, 7:00pm - 10:00pm
+Location: Meet at ZBT House
+Description
+Using only your wits and your friends, can you break free in under an hour? We’ll meet at on campus and then head out to Escape the Room Boston. Those who make it out will be driven back to MIT; those left inside may never be seen again. What will your fate be? Call ZBT for rides at 617-404-9663.
+
+Title: Dinner with ZBT: Beef Kabobs*
+Time: Thursday, September 5, 5:00pm - 7:00pm
+Location: ZBT House
+Description
+Call ZBT for rides at 617-404-9663.
+
+Title: Minigolf*
+Time: Thursday, September 5, 7:00pm - 10:00pm
+Location: Meet at stud steps
+Description
+Ever wanted to putt like Tiger? Come play minigolf with the brothers of ZBT. For rides, call us at 617-404-9663!
 `;
