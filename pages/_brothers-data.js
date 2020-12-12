@@ -776,6 +776,22 @@ module.exports = [
     "name": "Guang Cui - #10",
     "bio": `My name is Rodmy. I’m Peruvian.  I like long walks on the beach. Especially Sandy [the name of his current girlfriend] ones. I like juice boxes and I move a lot. I'm planning on majoring in both 8 and 18C.`
   },
+
+  {
+    "classname": "Beta Xi - Class of 2022",
+    "classid": "BetaXi",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/rodmy.jpg",
+    "name": "Daniel Sun",
+    "bio": `My name is Rodmy. I’m Peruvian.  I like long walks on the beach. Especially Sandy [the name of his current girlfriend] ones. I like juice boxes and I move a lot. I'm planning on majoring in both 8 and 18C.`
+  },
+
+  {
+    "classname": "Beta Nu - Class of 2021",
+    "classid": "BetaNu",
+    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/rodmy.jpg",
+    "name": "Nu",
+    "bio": `My asdfasdfasdf 18C.`
+  },
   
 ]
 
