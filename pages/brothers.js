@@ -67,6 +67,9 @@ export default function (props) {
             <Tabs.Panel title="βμ">
               <ClassGallery classid="BetaMu" onSelect={onSelect}/>
             </Tabs.Panel>
+            <Tabs.Panel title="βo">
+              <ClassGallery classid="BetaOmicron" onSelect={onSelect}/>
+            </Tabs.Panel>
           </Tabs>
           <BrotherPane ref={(ref) => _brother = ref} cb={(f) => openBrotherFn = f}/>
         </div>
