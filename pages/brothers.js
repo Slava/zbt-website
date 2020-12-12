@@ -136,11 +136,13 @@ class ClassGallery extends React.Component {
     const brothersCards = brothers.map((brotherDoc) => {
       const {imgurl, name, bio} = brotherDoc;
       return (
+        
         <div key={name} className="brother-card">
-        <a onClick={(e) => {e.preventDefault(); this.props.onSelect(brotherDoc)}}>
+            <a onClick={(e) => {e.preventDefault(); this.props.onSelect(brotherDoc)}}>
+          
             <img src={imgurl}/>
             <span className="name">{name}</span>
-          </a>
+            </a>
         </div>
       );
     });

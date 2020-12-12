@@ -28,7 +28,7 @@ export default function ({}) {
         <div>
           <Splash id="rush" imageUrl={CoverImg}></Splash>
           <div className="contents typography">
-            <h1>Rush ZBT this fall! (2019)</h1>
+            <h1>Rush ZBT this spring! (2021)</h1>
             <WithBoringTextOnSide>
               <Schedule/>
             </WithBoringTextOnSide>
@@ -42,11 +42,12 @@ export default function ({}) {
   );
 }
 
+// this was in the flex-cell div: <p className="important">Call ZBT for rides at <a href="tel:6172323257">617-404-9663</a> to get to any Rush event.</p>
 function WithBoringTextOnSide ({children}) {
   return (
       <div className="flex rush">
         <div className="flex-cell">
-          <p className="important">Call ZBT for rides at <a href="tel:6172323257">617-404-9663</a> to get to any Rush event.</p>
+        <p className="important">This is the Fall 2019 rush schedule. The Spring 2021 rush schedule is coming soon!</p>
           <p className="extra">We have all sorts of activities and mountains of <b>free food</b> available for Rush, giving the freshmen the chance to really get to know us and have a fun time doing so.</p>
         </div>
         <div className="flex-cell-bigger schedule">{children}</div>
