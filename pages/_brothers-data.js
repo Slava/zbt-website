@@ -9,8 +9,8 @@ module.exports = [
     "hometown": "Austin, TX",
     "big": "Jeffrey Chan",
     "littles": "Eric Wang",
-    "bio": "I am. The new. Ryan Lacey."
-  },
+    "bio": "I am. The new. Ryan Lacey. "
+  }, 
   {
     "classname": "Beta Theta - Class of 2016",
     "classid": "BetaTheta",
