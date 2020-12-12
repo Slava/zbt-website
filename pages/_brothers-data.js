@@ -777,21 +777,7 @@ module.exports = [
     "bio": `My name is Rodmy. I’m Peruvian.  I like long walks on the beach. Especially Sandy [the name of his current girlfriend] ones. I like juice boxes and I move a lot. I'm planning on majoring in both 8 and 18C.`
   },
 
-  {
-    "classname": "Beta Xi - Class of 2022",
-    "classid": "BetaXi",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/rodmy.jpg",
-    "name": "Daniel Sun",
-    "bio": `My name is Rodmy. I’m Peruvian.  I like long walks on the beach. Especially Sandy [the name of his current girlfriend] ones. I like juice boxes and I move a lot. I'm planning on majoring in both 8 and 18C.`
-  },
-
-  {
-    "classname": "Beta Nu - Class of 2021",
-    "classid": "BetaNu",
-    "imgurl": "https://drive.google.com/uc?id=1eJzoRludIkveJ_rgOMN9fnvEEN9qXpFg",
-    "name": "Nu",
-    "bio": `My asdfasdfasdf 18C.`
-  },
+  
 
   {classname: "Beta Omicron - Class of 2023", classid: "BetaOmicron", name: "Ryan Micah Kim", bio: "Ryan enjoys singing, playing guitar, rock climbing, and hanging out with friends.", imgurl: "https://drive.google.com/uc?id=1eJzoRludIkveJ_rgOMN9fnvEEN9qXpFg"},
   {classname: "Beta Nu - Class of 2021", classid: "BetaNu", name: "Thomas Wang Xiong", bio: "Big fan of cello, running, and reading Shakespeare. Secondary hobbies include supporting Tampa Bay Buccaneers, giving people workdays off, and watching Starcraft 2. ", imgurl: "https://drive.google.com/uc?id=14RozaY4cx0h0S93pa0TlsxKN2zRQOB0L"},
