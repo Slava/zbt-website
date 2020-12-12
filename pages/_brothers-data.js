@@ -769,14 +769,7 @@ module.exports = [
     "name": "Deep Gupta",
     "bio": ``
   },
-  {
-    "classname": "Beta Omicron - Class of 2023",
-    "classid": "BetaOmicron",
-    "imgurl": "https://s3.amazonaws.com/zbt-website/brothers-2018/rodmy.jpg",
-    "name": "Guang Cui - #10",
-    "bio": `My name is Rodmy. I’m Peruvian.  I like long walks on the beach. Especially Sandy [the name of his current girlfriend] ones. I like juice boxes and I move a lot. I'm planning on majoring in both 8 and 18C.`
-  },
-
+ 
   
 
   {classname: "Beta Omicron - Class of 2023", classid: "BetaOmicron", name: "Ryan Micah Kim", bio: "Ryan enjoys singing, playing guitar, rock climbing, and hanging out with friends.", imgurl: "https://drive.google.com/uc?id=1eJzoRludIkveJ_rgOMN9fnvEEN9qXpFg"},
