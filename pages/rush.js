@@ -47,8 +47,8 @@ function WithBoringTextOnSide ({children}) {
   return (
       <div className="flex rush">
         <div className="flex-cell">
-        <p className="important">This is the Fall 2019 rush schedule. The Spring 2021 rush schedule is coming soon!</p>
-          <p className="extra">We have all sorts of activities and mountains of <b>free food</b> available for Rush, giving the freshmen the chance to really get to know us and have a fun time doing so.</p>
+        <p className="important">Each Rush Event will be on Zoom (<a href="https://mit.zoom.us/j/2895765138">Link here</a>). All times are in EST. </p>
+          <p className="extra">We have all sorts of activities and mountains of <b>free food</b> available for Rush (even virtually!), giving the freshmen the chance to really get to know us and have a fun time doing so.</p>
         </div>
         <div className="flex-cell-bigger schedule">{children}</div>
       </div>
@@ -97,7 +97,7 @@ function Schedule() {
           {tableRows}
           </tbody>
         </table>
-        <div className="note">Events marked with asterisk(*) are invite-only</div>
+        {/*<div className="note">Events marked with asterisk(*) are invite-only</div>*/}
       </div>
   );
 }
@@ -133,7 +133,73 @@ function parseText() {
   });
 }
 
-const text = `Title: ZBT BBQ and Grill
+const text = `Title: ZBT Welcome
+Time: Saturday, February 6, 3:00pm - 6:00pm
+Location: https://mit.zoom.us/j/2895765138
+Description:
+Welcome to MIT IFC, Come hang out and meet the brothers of Zeta Beta Tau!
+
+Title: Poker Night
+Time: Saturday, February 6, 7:00pm - 9:30pm
+Location: https://mit.zoom.us/j/2895765138
+Description:
+Come play poker with the brothers of Zeta Beta Tau! Doesn’t matter if you’re a pro or you’ve never played poker in your life, we welcome all to join and have a shot at winning multiple prizes (including a grand prize of a TV to keep you entertained in quarantine).
+
+Title: Super Bowl Warmup
+Time: Sunday, February 7, 5:00pm - 6:30pm
+Location: https://mit.zoom.us/j/2895765138
+Description:
+Come hangout with the brothers of Zeta Beta Tau as the clock winds down on gameday!
+
+Title: ZBT Lunch of Champions
+Time: Monday, February 8, 12:00pm - 1:30pm
+Location: https://mit.zoom.us/j/2895765138
+Description:
+Grab some lunch, unwind and take a midday break with the brothers of Zeta Beta Tau
+
+Title: Escape Room
+Time: Monday, February 8, 7:00pm - 9:00pm
+Location: https://mit.zoom.us/j/2895765138
+Description:
+Try your shot at virtual Escape Room with the brothers of Zeta Beta Tau. Will you escape the room?
+
+Title: ZBT Lunch of Champions
+Time: Tuesday, February 9, 12:00pm - 1:30pm
+Location: https://mit.zoom.us/j/2895765138
+Description:
+Grab some lunch, unwind and take a midday break with the brothers of Zeta Beta Tau
+
+Title: Among Us
+Time: Tuesday, February 9, 7:00pm - 9:00pm
+Location: https://mit.zoom.us/j/2895765138
+Description:
+Quarantine got you down? No worries, test your deductive reasoning skills to catch the imposter...or throw a wrench in the plan as you hunt crewmates!
+
+Title: ZBT Lunch of Champions
+Time: Wednesday, February 10, 12:00pm - 1:30pm
+Location: https://mit.zoom.us/j/2895765138
+Description:
+Grab some lunch, unwind and take a midday break with the brothers of Zeta Beta Tau
+
+Title: ZBT Game Night
+Time: Wednesday, February 10, 7:00pm - 9:00pm
+Location: https://mit.zoom.us/j/2895765138
+Description:
+As the first week of rush winds down, come hangout and play a variety of games.
+
+Title: ZBT Lunch of Champions
+Time: Thursday, February 11, 12:00pm - 1:30pm
+Location: https://mit.zoom.us/j/2895765138
+Description:
+Grab some lunch, unwind and take a midday break with the brothers of Zeta Beta Tau
+
+Title: ZBT Game Night
+Time: Thursday, February 11, 7:00pm - 9:00pm
+Location: https://mit.zoom.us/j/2895765138
+Description:
+As the first week of rush winds down, come hangout and play a variety of games.
+`
+/*const text = `Title: ZBT BBQ and Grill
 Time: Saturday, August 31, 12:00pm - 3:00pm
 Location: Kresge BBQ Pits
 Description:
@@ -252,3 +318,4 @@ Location: Meet at stud steps
 Description
 Ever wanted to putt like Tiger? Come play minigolf with the brothers of ZBT. For rides, call us at 617-404-9663!
 `;
+*/
