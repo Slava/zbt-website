@@ -151,7 +151,6 @@ Location: https://mit.zoom.us/j/2895765138
 Description:
 Grab some breakfast and start your day off right with the brothers of Zeta Beta Tau!
 
-
 Title: Super Bowl Warmup
 Time: Sunday, February 7, 5:00pm - 6:30pm
 Location: https://mit.zoom.us/j/2895765138
