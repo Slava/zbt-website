@@ -145,6 +145,13 @@ Location: https://mit.zoom.us/j/2895765138
 Description:
 Come play poker with the brothers of Zeta Beta Tau! Doesn’t matter if you’re a pro or you’ve never played poker in your life, we welcome all to join and have a shot at winning multiple prizes (including a grand prize of a TV to keep you entertained in quarantine).
 
+Title: ZBT Rise 'N Shine
+Time: Sunday, February 7, 9:00am - 10:30am
+Location: https://mit.zoom.us/j/2895765138
+Description:
+Grab some breakfast and start your day off right with the brothers of Zeta Beta Tau!
+
+
 Title: Super Bowl Warmup
 Time: Sunday, February 7, 5:00pm - 6:30pm
 Location: https://mit.zoom.us/j/2895765138
