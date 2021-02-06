@@ -47,7 +47,7 @@ function WithBoringTextOnSide ({children}) {
   return (
       <div className="flex rush">
         <div className="flex-cell">
-        <p className="important">Each Rush Event will be on Zoom (<a href="https://mit.zoom.us/j/2895765138">Link here</a>). All times are in EST. </p>
+        <p className="important">Each Rush Event will be on Zoom. All times are in EST. </p>
           <p className="extra">We have all sorts of activities and mountains of <b>free food</b> available for Rush (even virtually!), giving the freshmen the chance to really get to know us and have a fun time doing so.</p>
         </div>
         <div className="flex-cell-bigger schedule">{children}</div>
@@ -159,7 +159,7 @@ Come hangout with the brothers of Zeta Beta Tau as the clock winds down on gamed
 
 Title: ZBT Lunch of Champions
 Time: Monday, February 8, 12:00pm - 1:30pm
-Location: https://mit.zoom.us/j/2895765138
+Location: https://mit.zoom.us/j/95981465913
 Description:
 Grab some lunch, unwind and take a midday break with the brothers of Zeta Beta Tau
 
@@ -171,7 +171,7 @@ Try your shot at virtual Escape Room with the brothers of Zeta Beta Tau. Will yo
 
 Title: ZBT Lunch of Champions
 Time: Tuesday, February 9, 12:00pm - 1:30pm
-Location: https://mit.zoom.us/j/2895765138
+Location: https://mit.zoom.us/j/95981465913
 Description:
 Grab some lunch, unwind and take a midday break with the brothers of Zeta Beta Tau
 
@@ -183,7 +183,7 @@ Quarantine got you down? No worries, test your deductive reasoning skills to cat
 
 Title: ZBT Lunch of Champions
 Time: Wednesday, February 10, 12:00pm - 1:30pm
-Location: https://mit.zoom.us/j/2895765138
+Location: https://mit.zoom.us/j/4828673245
 Description:
 Grab some lunch, unwind and take a midday break with the brothers of Zeta Beta Tau
 
@@ -195,7 +195,7 @@ As the first week of rush winds down, come hangout and play a variety of games.
 
 Title: ZBT Lunch of Champions
 Time: Thursday, February 11, 12:00pm - 1:30pm
-Location: https://mit.zoom.us/j/2895765138
+Location: https://mit.zoom.us/j/4828673245
 Description:
 Grab some lunch, unwind and take a midday break with the brothers of Zeta Beta Tau
 
