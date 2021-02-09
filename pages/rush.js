@@ -171,7 +171,7 @@ Try your shot at virtual Escape Room with the brothers of Zeta Beta Tau. Will yo
 
 Title: ZBT Lunch of Champions
 Time: Tuesday, February 9, 12:00pm - 1:30pm
-Location: https://mit.zoom.us/j/95981465913
+Location: https://gather.town/app/mKmlTKGsuPdNG9rD/ZBT
 Description:
 Grab some lunch (we will reimburse!), unwind and take a midday break with the brothers of Zeta Beta Tau
 
