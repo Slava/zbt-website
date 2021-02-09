@@ -47,8 +47,8 @@ function WithBoringTextOnSide ({children}) {
   return (
       <div className="flex rush">
         <div className="flex-cell">
-        <p className="important">Each Rush Event will be on Zoom. All times are in EST. </p>
-          <p className="extra">We have all sorts of activities and mountains of <b>free food</b> available for Rush (even virtually; we will reimburse you!), giving the freshmen the chance to really get to know us and have a fun time doing so.</p>
+        <p className="important">Each Rush Event will be on Zoom or Gather. All times are in EST. </p>
+          <p className="extra">We have all sorts of activities and mountains of <b>free food</b> available for Rush (even virtually; we will reimburse you for $15 plus fees), giving the freshmen the chance to really get to know us and have a fun time doing so.</p>
         </div>
         <div className="flex-cell-bigger schedule">{children}</div>
       </div>
