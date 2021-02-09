@@ -47,7 +47,7 @@ function WithBoringTextOnSide ({children}) {
   return (
       <div className="flex rush">
         <div className="flex-cell">
-        <p className="important">Each Rush Event will be on Zoom or Gather. All times are in EST. </p>
+        <p className="important">Each Rush Event will be on Gather (or Zoom). All times are in EST. </p>
           <p className="extra">We have all sorts of activities and mountains of <b>free food</b> available for Rush (even virtually; we will reimburse you for $15 plus fees), giving the freshmen the chance to really get to know us and have a fun time doing so.</p>
         </div>
         <div className="flex-cell-bigger schedule">{children}</div>
@@ -177,31 +177,31 @@ Grab some lunch (we will reimburse!), unwind and take a midday break with the br
 
 Title: Among Us
 Time: Tuesday, February 9, 7:00pm - 9:00pm
-Location: https://mit.zoom.us/j/2895765138
+Location: https://gather.town/app/mKmlTKGsuPdNG9rD/ZBT
 Description:
 Quarantine got you down? No worries, test your deductive reasoning skills to catch the imposter...or throw a wrench in the plan as you hunt crewmates!
 
 Title: ZBT Lunch of Champions
 Time: Wednesday, February 10, 12:00pm - 1:30pm
-Location: https://mit.zoom.us/j/4828673245
+Location: https://gather.town/app/mKmlTKGsuPdNG9rD/ZBT
 Description:
 Grab some lunch (we will reimburse!), unwind and take a midday break with the brothers of Zeta Beta Tau
 
 Title: ZBT Game Night
 Time: Wednesday, February 10, 7:00pm - 9:00pm
-Location: https://mit.zoom.us/j/2895765138
+Location: https://gather.town/app/mKmlTKGsuPdNG9rD/ZBT
 Description:
 As the first week of rush winds down, come hangout and play a variety of games.
 
 Title: ZBT Lunch of Champions
 Time: Thursday, February 11, 12:00pm - 1:30pm
-Location: https://mit.zoom.us/j/4828673245
+Location: https://gather.town/app/mKmlTKGsuPdNG9rD/ZBT
 Description:
 Grab some lunch (we will reimburse!), unwind and take a midday break with the brothers of Zeta Beta Tau
 
 Title: ZBT Game Night
 Time: Thursday, February 11, 7:00pm - 9:00pm
-Location: https://mit.zoom.us/j/2895765138
+Location: https://gather.town/app/mKmlTKGsuPdNG9rD/ZBT
 Description:
 As the first week of rush winds down, come hangout and play a variety of games.
 `
