@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router'
 import DocumentTitle from 'react-document-title'
 import SkyLight from 'react-skylight'
 import Tabs from 'react-simpletabs'
@@ -51,7 +50,7 @@ export default function (props) {
             <ImgGallery images={brothersPhotos} useLightbox />
           </div>
           <hr/>
-        <Tabs tabActive={5}>
+        <Tabs tabActive={4}>
             {/* <Tabs.Panel title="βθ">
               <ClassGallery classid="BetaTheta" onSelect={onSelect}/>
             </Tabs.Panel>
@@ -83,31 +82,6 @@ export default function (props) {
   );
 }
 
-class ClassesTabs extends React.Component {
-  constructor() {
-    super();
-    this.state = { current: 'BetaLambda' };
-  }
-
-  render() {
-    const greekify = (s) => {
-      const name = s.split('Beta')[1];
-      return `&Beta;&${name};`;
-    };
-
-    const classes = ['BetaTheta', 'BetaIota', 'BetaKappa', 'BetaLambda', 'BetaMu'];
-    const { current } = this.state;
-    return (
-        <div className="classes-tabs">
-        {
-          classes.map((name) =>
-                      <span key={name} className="tab" dangerouslySetInnerHTML={{__html: greekify(name)}}/>)
-        }
-        </div>
-    );
-  }
-}
-
 class BrotherPane extends React.Component {
   constructor() {
     super();
@@ -136,10 +110,9 @@ class ClassGallery extends React.Component {
     const brothersCards = brothers.map((brotherDoc) => {
       const {imgurl, name, bio} = brotherDoc;
       return (
-        
         <div key={name} className="brother-card">
             <a onClick={(e) => {e.preventDefault(); this.props.onSelect(brotherDoc)}}>
-          
+
             <img src={imgurl}/>
             <span className="name">{name}</span>
             </a>
