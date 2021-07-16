@@ -10,7 +10,7 @@ module.exports = [
     "big": "Jeffrey Chan",
     "littles": "Eric Wang",
     "bio": "I am. The new. Ryan Lacey. "
-  }, 
+  },
   {
     "classname": "Beta Theta - Class of 2016",
     "classid": "BetaTheta",
@@ -769,9 +769,18 @@ module.exports = [
     "name": "Deep Gupta",
     "bio": ``
   },
- 
-  
 
+  {classname: "Beta Pi - Class of 2024", classid: "BetaPi", name: "Eric Wang", bio: "Hi! I’m Eric Wang, a rising sophomore majoring in 6-3 and 15-1. In my free time I enjoy weightlifting, reading, and playing poker. I also love running around at night and going to new restaurants to try new foods.", imgurl: "https://zbt-website.s3.amazonaws.com/brothers-2020/Profile+Picture+-+Eric+Wang.jpeg"},
+  {classname: "Beta Pi - Class of 2024", classid: "BetaPi", name: "Allen Chen", bio: "Always down to work out, watch anime, or grab good food", imgurl: "https://zbt-website.s3.amazonaws.com/brothers-2020/B98E6E8E-F23B-45D4-BAFB-4F896721B2D1+-+Allen+Chen.jpeg"},
+  {classname: "Beta Pi - Class of 2024", classid: "BetaPi", name: "Ezra Erives", bio: "☀️🌳🚲🥏🥡", imgurl: "https://zbt-website.s3.amazonaws.com/brothers-2020/bio+-+Ezra+Erives.jpeg"},
+  {classname: "Beta Pi - Class of 2024", classid: "BetaPi", name: "Albert Xing", bio: "In my free time I like to eat, talk, play video games, and hang out with friends.", imgurl: "https://zbt-website.s3.amazonaws.com/brothers-2020/IMG_3901+-+Albert+Xing.jpg"},
+  {classname: "Beta Pi - Class of 2024", classid: "BetaPi", name: "Allen Ding", bio: "I'm a sophomore at MIT studying course 6-3, and am interested in algorithms and machine learning. Outside of classes and psets, I love playing poker, longboarding, trying new food, and spending time with friends :^) ", imgurl: "https://zbt-website.s3.amazonaws.com/brothers-2020/IMG_2903+-+Allen+Ding.jpeg"},
+  {classname: "Beta Pi - Class of 2024", classid: "BetaPi", name: "Jerry Zhao", bio: "Hi, I'm Jerry. We should be friends!", imgurl: "https://zbt-website.s3.amazonaws.com/brothers-2020/yearbookphoto+-+Jerry+Zhao.PNG"},
+  {classname: "Beta Pi - Class of 2024", classid: "BetaPi", name: "Sid Muppalla", bio: "I'm a 2024 from Houston, TX, and in my free time I enjoy playing games, watching sports, and listening to music.", imgurl: "https://zbt-website.s3.amazonaws.com/brothers-2020/picture+-+Sid+Muppalla.jpg"},
+  {classname: "Beta Pi - Class of 2024", classid: "BetaPi", name: "Patrick Zhang", bio: "🍉", imgurl: "https://zbt-website.s3.amazonaws.com/brothers-2020/F5FCF00A-706A-453E-AE44-DA2AFAB6CB37+-+Patrick+Zhang.jpeg"},
+  {classname: "Beta Pi - Class of 2024", classid: "BetaPi", name: "Michael Huang", bio: "Enjoys getting swole, playing basketball, and eating good with the boys. ", imgurl: "https://zbt-website.s3.amazonaws.com/brothers-2020/IMG_0867+-+Michael+Huang.JPG"},
+  {classname: "Beta Pi - Class of 2024", classid: "BetaPi", name: "Ethan Zahid", bio: "I'm a sophomore from Houston, TX majoring in 18C. Some of my favorite things to do are play and watch sports, playing card games, and listening to music.", imgurl: "https://zbt-website.s3.amazonaws.com/brothers-2020/Ethan+Zahid+Picture+-+Ethan+Zahid.jpg"},
+  {classname: "Beta Pi - Class of 2024", classid: "BetaPi", name: "Ajay Arora", bio: "I'm a rising junior from Novi, Michigan studying 6-3 with minors in management and statistics. I'm super passionate about building consumer facing products and enjoy working on/learning about startups in the creator economy space. Outside of classes, I spend a large amount of my time writing and producing music, so you'll likely find me in the house making songs into the early hours of the morning every day [find me on Soundcloud and Spotify!] With the rest of my time, though, I enjoy working out, exploring Boston, and catching up with friends over some good food.", imgurl: "https://zbt-website.s3.amazonaws.com/brothers-2020/Image+7-7-21+at+12.23+PM+-+Ajay+Arora.jpeg"},
   {classname: "Beta Omicron - Class of 2023", classid: "BetaOmicron", name: "Ryan Micah Kim", bio: "Ryan enjoys singing, playing guitar, rock climbing, and hanging out with friends.", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Ryan+Kim.jpg"},
   {classname: "Beta Nu - Class of 2021", classid: "BetaNu", name: "Thomas Wang Xiong", bio: "Big fan of cello, running, and reading Shakespeare. Secondary hobbies include supporting Tampa Bay Buccaneers, giving people workdays off, and watching Starcraft 2. ", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Thomas+Xiong.png"},
   {classname: "Beta Xi - Class of 2022", classid: "BetaXi", name: "Akshaj Kadaveru", bio: "Some of my hobbies include... making fun websites, dancing on MIT Mirchi, playing tennis, basketball, ping pong, and drinking smoothies! ", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Akshaj+Kadaveru.png"},
@@ -807,12 +816,12 @@ module.exports = [
   {classname: "Beta Xi - Class of 2022", classid: "BetaXi", name: "Harveer Singh", bio: "N/A", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Harveer+Singh.jpeg"},
   {classname: "Beta Nu - Class of 2021", classid: "BetaNu", name: "Eric Qian", bio: "Eric is a senior majoring in Computer Science. In his free time, Eric enjoys reading, playing volleyball, and travelling with his friends. Recently, he’s picked up computer vision research and learning history. He hopes to start his own tech company one day in the future.", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Eric+Qian.jpg"},
   {classname: "Beta Nu - Class of 2021", classid: "BetaNu", name: "Alexander Kenny Guo", bio: "N/A", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Alexander+Guo.jpg"},
-  {classname: "Beta Xi - Class of 2022", classid: "BetaXi", name: "Peter Hwang", bio: "Hello! My name is Peter Hwang, and I am the president of MIT Zeta Beta Tau. I am majoring in Computer Science and am interested in software engineering, data science, and product management. I have participated in research at the MIT Media Lab, Broad Institute of MIT and Harvard, and MIT Sloan School of Management to develop machine learning models for biometrics, cancer diagnosis, and financial trading. In my free time, I enjoy reading non-fiction books, listening to and creating music, and watching movies. Feel free to reach out to me to learn more about Zeta Beta Tau, or just to hang out! ZBT is a fun and welcoming community, and we would love to get the chance to meet you!", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Peter+Hwang.jpg"},  
+  {classname: "Beta Xi - Class of 2022", classid: "BetaXi", name: "Peter Hwang", bio: "Hello! My name is Peter Hwang, and I am the president of MIT Zeta Beta Tau. I am majoring in Computer Science and am interested in software engineering, data science, and product management. I have participated in research at the MIT Media Lab, Broad Institute of MIT and Harvard, and MIT Sloan School of Management to develop machine learning models for biometrics, cancer diagnosis, and financial trading. In my free time, I enjoy reading non-fiction books, listening to and creating music, and watching movies. Feel free to reach out to me to learn more about Zeta Beta Tau, or just to hang out! ZBT is a fun and welcoming community, and we would love to get the chance to meet you!", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Peter+Hwang.jpg"},
   {classname: "Beta Xi - Class of 2022", classid: "BetaXi", name: "Forest Yang", bio: "N/A", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Forest+Yang.jpeg"},
-{classname: "Beta Xi - Class of 2022", classid: "BetaXi", name: "Richard Gong", bio: "N/A", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Richard+Gong.jpeg"},
-{classname: "Beta Nu - Class of 2021", classid: "BetaNu", name: "Matthew Feng", bio: "N/A", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Matthew+Feng.jpeg"},
-{classname: "Beta Nu - Class of 2021", classid: "BetaNu", name: "Liam Conboy", bio: "N/A", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Liam+Conboy.jpeg"},
-{classname: "Beta Nu - Class of 2021", classid: "BetaNu", name: "Prateek Kalakuntla", bio: "N/A", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Prateek+Kalakuntla.jpeg"},
-{classname: "Beta Nu - Class of 2021", classid: "BetaNu", name: "Nafim Rahman", bio: "N/A", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Nafim+Rahman.jpeg"},
+  {classname: "Beta Xi - Class of 2022", classid: "BetaXi", name: "Richard Gong", bio: "N/A", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Richard+Gong.jpeg"},
+  {classname: "Beta Nu - Class of 2021", classid: "BetaNu", name: "Matthew Feng", bio: "N/A", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Matthew+Feng.jpeg"},
+  {classname: "Beta Nu - Class of 2021", classid: "BetaNu", name: "Liam Conboy", bio: "N/A", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Liam+Conboy.jpeg"},
+  {classname: "Beta Nu - Class of 2021", classid: "BetaNu", name: "Prateek Kalakuntla", bio: "N/A", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Prateek+Kalakuntla.jpeg"},
+  {classname: "Beta Nu - Class of 2021", classid: "BetaNu", name: "Nafim Rahman", bio: "N/A", imgurl: "https://s3.amazonaws.com/zbt-website/brothers-2020/Nafim+Rahman.jpeg"},
 ]
 

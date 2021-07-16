@@ -62,10 +62,10 @@ export default function (props) {
             </Tabs.Panel>
             <Tabs.Panel title="βλ">
               <ClassGallery classid="BetaLambda" onSelect={onSelect}/>
-            </Tabs.Panel> */}
+            </Tabs.Panel>
             <Tabs.Panel title="βμ">
               <ClassGallery classid="BetaMu" onSelect={onSelect}/>
-            </Tabs.Panel>
+            </Tabs.Panel> */}
             <Tabs.Panel title="βν">
               <ClassGallery classid="BetaNu" onSelect={onSelect}/>
             </Tabs.Panel>
@@ -75,7 +75,10 @@ export default function (props) {
             <Tabs.Panel title="βο">
               <ClassGallery classid="BetaOmicron" onSelect={onSelect}/>
             </Tabs.Panel>
-          </Tabs>
+            <Tabs.Panel title="βπ">
+              <ClassGallery classid="BetaPi" onSelect={onSelect}/>
+            </Tabs.Panel>
+        </Tabs>
           <BrotherPane ref={(ref) => _brother = ref} cb={(f) => openBrotherFn = f}/>
         </div>
       </DocumentTitle>
@@ -110,6 +113,7 @@ class ClassGallery extends React.Component {
     const brothersCards = brothers.map((brotherDoc) => {
       const {imgurl, name, bio} = brotherDoc;
       return (
+
         <div key={name} className="brother-card">
             <a onClick={(e) => {e.preventDefault(); this.props.onSelect(brotherDoc)}}>
 
