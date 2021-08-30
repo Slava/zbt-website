@@ -1,5 +1,14 @@
 #!/bin/bash
 
+echo "Checking if Node 7 is active..."
+
+if node -v | grep -q 'v7.'; then
+    echo "Yep! It is."
+else
+    echo "Node v7 not detected. Aborting."
+    exit 1 
+fi
+
 git status
 echo "Building..."
 npm run-script build
