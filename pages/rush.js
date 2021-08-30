@@ -205,22 +205,22 @@ Description:
 Up late? Hungry from bowling? Join ZBT in eating America’s best pancakes at a late-night run to IHOP. Bring your appetites because this meal is on us! We will be providing transportation from campus to IHOP and from bowling directly to IHOP as well. Call 617-420-2928 for a ride.
 
 Title: *ZBT Breakfast of Champions
-Time: Tuesday, September 7, 9:00am - 12:00pm
+Time: Tuesday, September 7, 9:00am - 11:00am
 Location: Student Center Steps
 Description:
 Come to the stud for ZBT’s Breakfast of Champions! Eggs, bacon, sausage, fresh fruit and muffins for days. Vegetarians welcome! Call us at 617-420-2928
 
-Title: *Dinner with ZBT
-Time: Tuesday, September 7, 5:30pm - 7:30pm
-Location: Meet at Walker
-Description:
-Call ZBT for rides at 617-420-2928.
-
 Title: *Skyzone
-Time: Tuesday, September 7, 7:30pm - 10:00pm
+Time: Tuesday, September 7, 5:30pm - 8:00pm
 Location: Meet at Walker
 Description:
 Massive wall-to-wall trampolines, cushy foam pits, the ultimate in dodgeball. And of course, a basketball hoop to dunk. Come to Skyzone with ZBT! Call 617-420-2928 for your ride.
+
+Title: *Dinner with ZBT
+Time: Tuesday, September 7, 8:00pm - 10:00pm
+Location: Meet at Walker
+Description:
+Call ZBT for rides at 617-420-2928.
 
 Title: *Dinner with ZBT
 Time: Wednesday, September 8, 5:30pm - 7:30pm
