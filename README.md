@@ -23,6 +23,11 @@ client-side interactivity.
 ## Development
 
 You would need `node` and `npm`.
+**Make sure Node version is v7! There are some compatibility issues at the moment. For example, you can run:
+```
+npm install -g n
+$ n 7.0.0
+```
 
 Install `gatsby` globally:
 
@@ -59,6 +64,7 @@ the `zbt-webmaster@mit.edu` mailing list in order to upload files there.
 
 To deploy, just build files and put them into the Scripts root to be served
 as static files.
+**If you run into errors with os.tmpDir, go to https://stackoverflow.com/questions/40913034/os-tmpdir-is-deprecated-node-and-formidable
 
 Run the `./deploy-to-prod` bash script to save keystrokes and upload files
 over `scp`.
