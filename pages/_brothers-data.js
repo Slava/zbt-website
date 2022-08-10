@@ -770,6 +770,8 @@ module.exports = [
     "bio": ``
   },
 
+  {classname: "Beta Rho - Class of 2025", classid: "BetaRho", name: "Naail Lakhani", bio: "hi!", imgurl: https://zbt-website.s3.amazonaws.com/brothers-2020/Screen+Shot+2021-07-12+at+11.52.46+PM+-+Allen+Wang.png},
+
   {classname: "Beta Pi - Class of 2024", classid: "BetaPi", name: "Allen Wang", bio: "It's Allen Wang! 🎉 I’m a junior majoring in 15-3 🤑, and I joined ZBT my sophomore spring. Outside of ZBT, I’m involved in Poker Club and HackMIT. In my free time, I like to read to retire 📚, reflect to read 🤔, and write to reflect ✏️. Other times, you may catch me strolling 🚶 around Killian, tickling the ivory 🎹 in the List Arts Center, or trying to go a PR 🏊. And of course I'm obligated to give a fun fact: bitter melon (kugua) is my favorite vegetable 😱😱😱.", imgurl: "https://zbt-website.s3.amazonaws.com/brothers-2020/Screen+Shot+2021-07-12+at+11.52.46+PM+-+Allen+Wang.png"},
   {classname: "Beta Pi - Class of 2024", classid: "BetaPi", name: "Eric Wang", bio: "Hi! I’m Eric Wang, a rising sophomore majoring in 6-3 and 15-1. In my free time I enjoy weightlifting, reading, and playing poker. I also love running around at night and going to new restaurants to try new foods.", imgurl: "https://zbt-website.s3.amazonaws.com/brothers-2020/Profile+Picture+-+Eric+Wang.jpeg"},
   {classname: "Beta Pi - Class of 2024", classid: "BetaPi", name: "Allen Chen", bio: "Always down to work out, watch anime, or grab good food", imgurl: "https://zbt-website.s3.amazonaws.com/brothers-2020/B98E6E8E-F23B-45D4-BAFB-4F896721B2D1+-+Allen+Chen.jpeg"},
