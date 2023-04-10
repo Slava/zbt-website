@@ -1276,7 +1276,7 @@ module.exports = [
     classname: "Beta Rho - Class of 2025",
     classid: "BetaRho",
     name: "Ben Wu",
-    bio: "Hi! I'm a 2024 from Cary, NC majoring in 18/6-2. I'm specifically interested in sigproc + analysis. Some hobbies of mine include soccer (hmu if interested in club soccer!), reading epic fantasy and mystery novels, watching TV shows (favorites: The Sopranos, The Wire), and discovering the best late-night food places in the Boston area.",
+    bio: "N/A",
     imgurl:
       "https://zbt-website.s3.amazonaws.com/brothers-beta-rho/Benjamin+Wu.jpeg",
   },
