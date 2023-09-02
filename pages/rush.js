@@ -152,105 +152,105 @@ function parseText() {
   });
 }
 
-const text = `Title: Raising Canes and Games
+const text = `Title: Raising Canes and Outdoor Games
 Time: Saturday, September 2, 1:00pm - 4:00pm
 Location: Briggs Field
 Description:
-The infamous Canes chicken and outdoor games with ZBT! Come hang out with brothers and friends. Vegetarian options will be available as well!
+Come to Briggs Field for Cane's chicken and have a ball playing of spikeball, soccer, ultimate, football, and more! Vegetarian options available.
 
 Title: ZBT Sushi Night
 Time: Saturday, September 2, 5:00pm - 7:00pm
-Location: Walker
+Location: Walker Memorial
 Description:
-Think you can beat the brothers at a sushi eating contest? Stop by for some delicious sushi (vegetarian options available) and a great time with the brothers!
+Sushi Dinner! Come meet the brothers of ZBT and stay for our poker tournament where we'll give out over $1000 in prizes.
 
 Title: ZBT Poker Night
 Time: Saturday, September 2, 7:00pm - 10:00am
-Location: Walker
+Location: Walker Memorial
 Description:
-Try your luck with the brothers of ZBT playing some classic, no limit, texas hold'em. Come for a chance to win some amazing prizes, such as TVs and AirPods! Maybe you'll even face off against some members of the MIT Poker Club...
+Come join the brothers of ZBT for our signature poker night where we'll give out over $1000 in prizes, including airpods, a nintendo switch, and gift cards! All skill levels welcome; we'll teach you how to play.
 
 Title: Paintball
 Time: Sunday, September 3, 11:00am - 4:00pm
-Location: Meet at Kresge Turnaround
+Location: Action Games Paintball
 Description:
-Splatter your opponents with paint on the battlefield. Join our ranks to show your strength in glorious battle. Provisions will be provided to all soldiers, thanks to our chef, with vegetarian options available. Make sure to bring clothes you don't mind getting dirty!
+Come play paintball with the brothers of ZBT! Meet outside Maseeh or call us at (857) 576-4928 for your ride!
 
-Title: House Tours and Thai Food
+Title: House Tours + Dinner
 Time: Sunday, September 3, 5:00pm - 8:00pm
-Location: ZBT
+Location: ZBT House
 Description: 
-Come join the brothers at the house for Thai food and house tours! Chill with the brothers and friends, and get to see the ZBT house for yourself. Vegetarian options available, and Muay Thai is discouraged but not illegal.
+Meet the brothers, tour the ZBT house, and enjoy some of Boston's best thai food. Meet outside Maseeh or text (857) 576-4928 for your ride!
 
 Title: Minigolf
 Time: Sunday, September 3, 8:00pm - 10:00pm
-Location: Meet at ZBT (from dinner) or Kresge Turnaround
+Location: McGolf
 Description: 
-Come and join the brothers for a fun night of minigolf! A night filled with missing swings, eating dirt, and digging golf balls out of bushes awaits you.
+Come play minigolf with the brothers of ZBT. For rides, call us at (857) 576-4928!
 
 Title: K1 Speed Go-karts
 Time: Monday, September 4, 2:00pm - 6:00pm
-Location: Meet at Kresge Turnaround
+Location: K1 Speed
 Description:
-This is SPARTA!! Actually, it’s just some karts. Idk I can fix this if this website actually works
+Join the brothers of ZBT for our rendition of Fast and Furious! Call (857) 576-4928 for a ride!
 
 Title: Bonchon Dinner (Korean Fried Chicken)
 Time: Monday, September 4, 5:00pm - 7:00pm
-Location: ZBT
+Location: ZBT House
 Description:
-Wanna know how I got these scars? Well... it was from doing the Hot Ones challenge at ZBT. Join us at the house for dinner, where we'll be packing the heat (and chicken)!
+Come join ZBT for some delicious bonchon chicken and good times. Vegetarian options available! Call us at (857) 576-4928 for rides.
 
 Title: Bowling
 Time: Monday, September 4, 7:00pm - 10:00pm
-Location: Meet at ZBT (from dinner) or Kresge Turnaround
+Location: Kings Dining & Entertainment
 Description:
-Have some spare time? Come bowl with the brothers of ZBT! Whether you strike it lucky or end up in the gutter, it’ll be a great time! 
+Have some spare time? Come bowl with the brothers of ZBT! Whether you strike it lucky or end up in the gutter, it’ll be a great time! Need a ride? Call us at (857) 576-4928!
 
 Title: Late Night IHOP
 Time: Monday, September 4, 10:00pm - 12:00am
-Location: Meet at Kresge Turnaround
+Location: IHOP
 Description:
-Up late? Hungry from bowling? Join ZBT in eating America’s best pancakes at a late-night run to IHOP. Bring your appetites because this meal is on us! We will be providing transportation from campus to IHOP and from bowling directly to IHOP as well. 
+Up late? Hungry from bowling? Join ZBT in eating America’s best pancakes at a late-night run to IHOP. We will be providing transportation from campus to IHOP and from bowling directly to IHOP as well. Call (857) 576-4928 for a ride.
 
 Title: Rock Climbing*
 Time: Tuesday, September 5, 12:00pm - 2:30pm
-Location: Meet at Kresge Turnaround
+Location: Central Rock Gym
 Description:
-What better thing to do at 10 in the morning than climb rocks? 
+Come boulder with the brothers of ZBT. Call (857) 576-4928 for rides.
 
 Title: Trampoline Dodgeball*
 Time: Tuesday, September 5, 2:30pm - 5:00pm
-Location: Meet at Kresge Turnaround
+Location: Get Air Trampoline Park
 Description:
-Massive wall-to-wall trampolines, cushy foam pits, the ultimate in-door dodgeball. And of course, a basketball hoop to dunk. Come to Skyzone with ZBT!
+Hop around with the brothers of ZBT and take your shot at showing off your best stunts! Call (857) 576-4928 for a ride!
 
 Title: House Dinner*
 Time: Tuesday, September 5, 5:30pm - 8:00pm
-Location: ZBT
+Location: ZBT House
 Description:
-N/A
+Mediteranean dinner with the brothers of ZBT!
 
 Title: Level 99*
 Time: Tuesday, September 5, 8:00pm - 10:00pm
-Location: ?
+Location: Level99
 Description:
-N/A
+A night of mental puzzles, physical challenges, and crushing your friends in competitions!
 
 Title: Escape the Room*
 Time: Wednesday, September 6, 5:30pm - 8:00pm
-Location: ?
+Location: Escape the Room Boston
 Description:
-N/A
+Using only your wits and your friends, can you break free in under an hour? We’ll meet on campus and then head out to Escape the Room Boston. Those who make it out will be driven back to MIT; those left inside may never be seen again. What will your fate be? Call ZBT for rides at (857) 576-4928.
 
 Title: Sushi Dinner*
 Time: Wednesday, September 6, 8:00pm - 10:00pm
-Location: ?
+Location: Yamato II
 Description:
-N/A
+Come to Yamatos for some all you can eat Sushi! Vegetarian options available.
 
 Title: Boat Cruise*
 Time: Thursday, September 7, 6:00pm - 10:00pm
-Location: ?
+Location: Odyssey Boston
 Description:
-:)
+Enjoy a sunset boat cruise over the Charles River! Food will be provided.
 `;
