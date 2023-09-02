@@ -31,7 +31,7 @@ export default function ({}) {
       <div>
         <Splash id="rush" imageUrl={CoverImg}></Splash>
         <div className="contents typography">
-          <h1>Rush ZBT this fall! (2022)</h1>
+          <h1>Rush ZBT this fall! (2023)</h1>
           <WithBoringTextOnSide>
             <Schedule />
           </WithBoringTextOnSide>
@@ -67,7 +67,7 @@ function Schedule() {
 
   const days = [];
   Object.keys(byDay).forEach((key) => {
-    days.push({ date: new Date(key.split(", ")[1] + " 2018"), key });
+    days.push({ date: new Date(key.split(", ")[1] + " 2023"), key });
   });
 
   days.sort((a, b) => -a.date + b.date);
@@ -152,81 +152,105 @@ function parseText() {
   });
 }
 
-const text = `Title: Kresge Kickoff
-Time: Saturday, September 3, 12:00pm - 2:00pm
-Location: Kresge Lawn
-Description:
-Come chill with ZBT and get to know the brothers as we kick off the rush season!
-
-Title: Raising Canes and Outdoor Games
-Time: Saturday, September 3, 2:00pm - 5:00pm
+const text = `Title: Raising Canes and Games
+Time: Saturday, September 2, 1:00pm - 4:00pm
 Location: Briggs Field
 Description:
 The infamous Canes chicken and outdoor games with ZBT! Come hang out with brothers and friends. Vegetarian options will be available as well!
 
 Title: ZBT Sushi Night
-Time: Saturday, September 3, 6:00pm - 8:00pm
-Location: BC Porter Room
+Time: Saturday, September 2, 5:00pm - 7:00pm
+Location: Walker
 Description:
 Think you can beat the brothers at a sushi eating contest? Stop by for some delicious sushi (vegetarian options available) and a great time with the brothers!
 
 Title: ZBT Poker Night
-Time: Saturday, September 3, 8:00pm - 12:00am
-Location: BC Porter Room
+Time: Saturday, September 2, 7:00pm - 10:00am
+Location: Walker
 Description:
 Try your luck with the brothers of ZBT playing some classic, no limit, texas hold'em. Come for a chance to win some amazing prizes, such as TVs and AirPods! Maybe you'll even face off against some members of the MIT Poker Club...
 
 Title: Paintball
-Time: Sunday, September 4, 11:00am - 4:00pm
+Time: Sunday, September 3, 11:00am - 4:00pm
 Location: Meet at Kresge Turnaround
 Description:
 Splatter your opponents with paint on the battlefield. Join our ranks to show your strength in glorious battle. Provisions will be provided to all soldiers, thanks to our chef, with vegetarian options available. Make sure to bring clothes you don't mind getting dirty!
 
 Title: House Tours and Thai Food
-Time: Sunday, September 4, 5:30pm - 7:30pm
+Time: Sunday, September 3, 5:00pm - 8:00pm
 Location: ZBT
 Description: 
 Come join the brothers at the house for Thai food and house tours! Chill with the brothers and friends, and get to see the ZBT house for yourself. Vegetarian options available, and Muay Thai is discouraged but not illegal.
 
 Title: Minigolf
-Time: Sunday, September 4, 7:30pm - 10:00pm
+Time: Sunday, September 3, 8:00pm - 10:00pm
 Location: Meet at ZBT (from dinner) or Kresge Turnaround
 Description: 
 Come and join the brothers for a fun night of minigolf! A night filled with missing swings, eating dirt, and digging golf balls out of bushes awaits you.
 
-Title: Battle Canoeing
-Time: Monday, September 5, 12:00pm - 4:00pm
+Title: K1 Speed Go-karts
+Time: Monday, September 4, 2:00pm - 6:00pm
 Location: Meet at Kresge Turnaround
 Description:
-This is SPARTA!! Actually, it’s just the Charles river. Wanna get soaked in the river just for the fun of it? Wanna throw some water balloons at people because why not? Come to ZBT Battle Canoeing! We will be renting boats to go on the Charles. Life jackets will be available and your electronics will be taken care of.
+This is SPARTA!! Actually, it’s just some karts. Idk I can fix this if this website actually works
 
-Title: Dinner at the House: Korean Fried Chicken
-Time: Monday, September 5, 5:30pm - 7:00pm
+Title: Bonchon Dinner (Korean Fried Chicken)
+Time: Monday, September 4, 5:00pm - 7:00pm
 Location: ZBT
 Description:
 Wanna know how I got these scars? Well... it was from doing the Hot Ones challenge at ZBT. Join us at the house for dinner, where we'll be packing the heat (and chicken)!
 
 Title: Bowling
-Time: Monday, September 5, 7:00pm - 10:00pm
+Time: Monday, September 4, 7:00pm - 10:00pm
 Location: Meet at ZBT (from dinner) or Kresge Turnaround
 Description:
 Have some spare time? Come bowl with the brothers of ZBT! Whether you strike it lucky or end up in the gutter, it’ll be a great time! 
 
 Title: Late Night IHOP
-Time: Monday, September 5, 10:00pm - 12:00am
+Time: Monday, September 4, 10:00pm - 12:00am
 Location: Meet at Kresge Turnaround
 Description:
 Up late? Hungry from bowling? Join ZBT in eating America’s best pancakes at a late-night run to IHOP. Bring your appetites because this meal is on us! We will be providing transportation from campus to IHOP and from bowling directly to IHOP as well. 
 
-Title: Rock Climbing
-Time: Tuesday, September 6, 10:00am - 12:00pm
+Title: Rock Climbing*
+Time: Tuesday, September 5, 12:00pm - 2:30pm
 Location: Meet at Kresge Turnaround
 Description:
 What better thing to do at 10 in the morning than climb rocks? 
 
-Title: Skyzone
-Time: Tuesday, September 6, 2:00pm - 5:00pm
+Title: Trampoline Dodgeball*
+Time: Tuesday, September 5, 2:30pm - 5:00pm
 Location: Meet at Kresge Turnaround
 Description:
 Massive wall-to-wall trampolines, cushy foam pits, the ultimate in-door dodgeball. And of course, a basketball hoop to dunk. Come to Skyzone with ZBT!
+
+Title: House Dinner*
+Time: Tuesday, September 5, 5:30pm - 8:00pm
+Location: ZBT
+Description:
+N/A
+
+Title: Level 99*
+Time: Tuesday, September 5, 8:00pm - 10:00pm
+Location: ?
+Description:
+N/A
+
+Title: Escape the Room*
+Time: Wednesday, September 6, 5:30pm - 8:00pm
+Location: ?
+Description:
+N/A
+
+Title: Sushi Dinner*
+Time: Wednesday, September 6, 8:00pm - 10:00pm
+Location: ?
+Description:
+N/A
+
+Title: Boat Cruise*
+Time: Thursday, September 7, 6:00pm - 10:00pm
+Location: ?
+Description:
+:)
 `;
