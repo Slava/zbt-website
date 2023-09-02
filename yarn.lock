@@ -2084,8 +2084,8 @@ decamelize@^1.0.0, decamelize@^1.1.2, decamelize@^1.2.0:
   resolved "https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz"
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/decode-uri-component/-/decode-uri-component-0.2.0.tgz"
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
 
 decompress-response@^3.2.0:
   version "3.3.0"
@@ -5222,6 +5222,9 @@ mixin-deep@^1.2.0:
     minimist "^1.2.5"
 
 moment@2.x.x, moment@^2.18.1:
+  version "2.29.1"
+  resolved "https://registry.npmjs.org/moment/-/moment-2.29.1.tgz"
+
 
 ms@2.0.0:
   version "2.0.0"
@@ -7992,6 +7995,9 @@ ua-parser-js@^0.7.18:
   resolved "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.23.tgz"
 
 uc.micro@^1.0.1:
+  version "1.0.6"
+  resolved "https://registry.npmjs.org/uc.micro/-/uc.micro-1.0.6.tgz"
+
 
 uglify-js@^2.6.1, uglify-js@~2.7.3:
   version "2.7.5"
